@@ -1,0 +1,45 @@
+module-name													Uživatelé
+user														Uživatel
+
+# akce
+
+security-risk-administrator									Heslo uživatele 'administrator' je stále nastaveno na výchozí hodnotě. Jedná se o bezpečnostní riziko a nemělo by se to stát. Byla kontaktována technická podpora, aby danou situaci vyřešila.
+
+login														Přihlásit
+login-header												Přihlášení
+login-submit												Přihlásit
+login-success												Přihlášení úspěšné
+login-failure												Přihlášení selhalo
+
+logout														Odhlásit
+
+password													Změnit heslo
+password-confirmation										Potvrzení hesla
+password-match												hesla musí být stejná
+
+# data
+
+id															ID
+password													Heslo
+timestamp													Poslední aktivita
+login_previous												Předchozí přihlášení
+login_this													Toto přihlášení
+status														Stav
+status-note													Blokovaný uživatel nebude schopen se přihlásit. Uživatel 'administrator' je určen k servisním zásahům a proto nebude nikdy zablokován.
+
+name_first													Jméno
+name_last													Příjmení
+name														Celé jméno
+email														E-mail
+email-note													Podrobné kontaktní údaje jako e-mail, telefon a instant messenger jsou užitečné především pro systémy s mnoha uživateli. Každý uživatel si může prohlédnout kontaktní údaje ostatních.
+phone														Telefon
+im															Instant Messenger
+im-note														Uživatelské jméno pro sítě jako ICQ, Skype, GTalk/Jabber/XMPP
+cookie_expiration											Expirace sušenky
+cookie_expiration-note										Tuto vlastnost použijte, pokud Vám vypadává přihlášení do administrace. Vyplňte dobu neaktivity v sekundách, po kterou chcete zůstat přihlášeni. 
+roles														Role
+roles-note													Vnitřní identifikátory rolí oddělené středníkem.
+data														Uživatelská nastavení
+
+status-active												aktivní
+status-blocked												blokovaný

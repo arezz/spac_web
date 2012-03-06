@@ -1,0 +1,12 @@
+module-name													Stránky
+
+# akce
+
+get-url
+
+# data
+
+meta_url													META: URL
+meta_title													META: title
+meta_keywords												META: keywords
+meta_description											META: description

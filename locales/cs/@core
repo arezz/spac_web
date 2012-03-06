@@ -1,0 +1,250 @@
+# nadpisy
+
+core														Jádro
+administration												Administrace
+
+# akce
+
+new															Nový
+new-submit													Uložit
+add															Přidat
+edit														Upravit
+edit-submit													Uložit
+view														Prohlédnout
+delete														Smazat
+cannot-delete												Nelze smazat
+deleted														Smazáno
+test-data													Testovací data
+remove														Odstranit
+search														Hledat
+search-full													Rozšířené vyhledávání
+search-submit												Vyhledat
+search-term													Hledaný výraz
+search-clear												Zrušit hledání
+search-result-empty											Nebyly nalezeny žádné záznamy
+search-close												X
+list														Vypsat
+back														Zpět
+back-to														Zpět na
+actions														Akce
+grab														Chytnout
+grab-cannot													Nelze chytnout
+cancel														Zrušit
+drop														Upustit
+dropped														Upuštěno
+save														Uložit
+saved														Uloženo
+true														Ano
+false														Ne
+or															nebo
+submit														Odeslat
+done														Hotovo
+choose														Vybrat
+ascending													Vzestupně
+descending													Sestupně
+order-submit												Seřadit
+list-filter													Filtr
+list-filter-submit											Filtrovat
+files-file													Soubor
+files-id													ID
+files-text													Popis
+files-warning												<strong>Upozornění: najednou lze nahrát pouze %d MB příloh!</strong>
+files-get													Stáhnout soubor
+files-empty													Prázdný
+unspecified-error											neurčená chyba
+access-denied												přístup nebyl povolen
+history														Historie
+
+send														Odeslat
+sent														Odesláno
+setup														Nastavení
+install														Instalovat
+installation												Instalace
+no-install													Netřeba instalovat
+no-setup													Netřeba nastavovat
+date														Datum
+date-format													%d.%m.%Y
+datetime-format												%d.%m.%Y %H:%M:%S
+datetime-format-Y-m-d										%d.%m.%Y
+datetime-format-Y-m-d H:i:s									%d.%m.%Y %H:%M:%S
+cut-length													150
+not-found													nenalezeno
+captcha														Opište ověřovací text
+more														více
+unavailable													nedostupné
+textarea-remaining-characters								zbývá %s znaků
+ocreated													Datum vytvoření
+omodified													Datum změny
+
+mail														Poslat e-mail
+mail-subject												Předmět
+mail-body													Tělo
+mail-from													Odesílatel
+mail-emails													Adresáti
+mail-attachment												Příloha
+
+confirm														Potvrdit
+confirm-delete												Opravdu smazat?
+
+top															Úvod
+index														Domov
+panel-support												Technická podpora
+panel-development-team										Vývojový tým
+panel-contact-me											Oznamte chybu
+panel-iis													IIS
+e-shop														E-Shop
+http-404													Stránka nenalezena
+http-404-message											Stránka, kterou hledáte byla změněna nebo přesunuta. Pokračujte, prosím, na následující odkaz.<br /> The page you are looking for is not present. Please, follow this link.
+
+all-rights-reserved											všechna práva vyhrazena
+
+administration-menu-group-default							Web
+administration-menu-group-shop								E-shop
+administration-menu-group-iis								IIS
+
+# jazyky
+
+locale-cs													česky
+locale-en													anglicky
+locale-sk													slovensky
+locale-de													německy
+locale-fr													francouzsky
+locale-it													italsky
+locale-ru													rusky
+locale-es													španělsky
+
+# vychozi pole
+
+acl															ACL (nastavení přístupových práv)
+ouser														Uživatel
+ouid														Uživatel
+orid														Role
+oattrs														Skupiny atributů
+oattributes													Atributy
+group														Skupina
+priority													Pořadí
+blob														Soubor
+blob_size													Velikost
+blob_type													Typ
+blob_name													Původní název
+title														Nadpis
+subtitle													Podtitulek
+summary														Shrnutí
+text														Text
+url															URL
+email														E-mail
+id															Identifikátor
+password													Heslo
+status														Stav
+enabled														Povoleno
+selected													Zvolený
+image														Obrázek
+images														Obrázky
+attachments													Přílohy
+
+# pravidla pro formulare
+
+operator==													stejná jako
+operator!=													různá od
+operator===													stejná jako
+operator!==													různá od
+operator>													větší než
+operator>=													menší než
+operator<													větší nebo rovna než
+operator<=													menší nebo rovna než
+
+form-invalid-fields											Některá pole byla vyplněna špatně, prosím, opravte je:
+rule-id														musí být ID (obsahovat pouze písmena, čísla, pomlčku, podtržítko)
+rule-id-exists												takové ID už existuje
+rule-required												zadejte {$label}.
+#rule-required												je požádováno
+rule-unique													kombinace hodnot v těchto polích již existuje
+rule-unique-one												již existuje záznam se stejnou hodnotou v poli
+rule-numeric												musí být číslo
+rule-integer												musí být celé číslo
+rule-email													musí být platný e-mail
+rule-captcha												ověřovací text nesouhlasí
+rule-length-min												délka textu musí být alespoň %d znaků
+rule-length-max												délka textu musí být nejvýše %d znaků
+rule-length													délka textu musí být mezi %d a %d znaky
+rule-compare												hodnota musí být %s '%s'
+rule-compare_element										hodnota musí být %s hodnota %s
+rule-file-limit-size										soubor je příliš velký
+rule-file-limit-type										soubor má nepovolený typ
+rule-file-limit-size-allowed								maximální povolená velikost je %d bajtů.
+rule-file-limit-type-allowed								povoleny jsou typy: %s.
+rule-file-limit-type-image/.*								obrázky
+rule-file-limit-type-image/jpeg								JPEG
+rule-file-limit-type-image/pjpeg							JPEG
+rule-file-limit-type-image/pjpeg							JPEG
+rule-file-limit-type-image/gif								GIF
+rule-file-limit-type-image/png								PNG
+rule-file-limit-type-application/pdf						PDF
+
+# kalendar
+
+wday-0														neděle
+wday-1														pondělí
+wday-2														úterý
+wday-3														středa
+wday-4														čtvrtek
+wday-5														pátek
+wday-6														sobota
+wday-7														neděle
+
+wday-short-0												ne
+wday-short-1												po
+wday-short-2												út
+wday-short-3												st
+wday-short-4												čt
+wday-short-5												pá
+wday-short-6												so
+wday-short-7												ne
+
+mon-1														leden
+mon-2														únor
+mon-3														březen
+mon-4														duben
+mon-5														květen
+mon-6														červen
+mon-7														červenec
+mon-8														srpen
+mon-9														záři
+mon-10														říjen
+mon-11														listopad
+mon-12														prosinec
+
+previous-month												předchozí měsíc
+next-month													následující měsíc
+
+# pager
+
+pager-altFirst												první strana
+pager-altPrev												předchozí strana
+pager-altNext												další strana
+pager-altLast												poslední strana
+pager-altPage												strana %d
+pager-prevImg												&lsaquo;
+pager-nextImg												 &rsaquo;
+pager-separator												&nbsp;
+pager-spacesBeforeSeparator									0
+pager-spacesAfterSeparator									1
+pager-firstLinkTitle										první strana
+pager-prevLinkTitle											předchozí strana
+pager-nextLinkTitle											další strana
+pager-lastLinkTitle											poslední strana
+#pager-curPageSpanPre
+#pager-curPageSpanPost
+pager-firstPagePre
+pager-firstPageText											&laquo;
+pager-firstPagePost
+pager-lastPagePre
+pager-lastPageText											&raquo;
+pager-lastPagePost
+
+# settings
+setting-textarea-html-editor								HTML Editor
+setting-textarea-html-editor-default						Výchozí
+setting-textarea-html-editor-none							Žádný
+setting-textarea-html-editor-fckeditor						FCKeditor
+setting-textarea-html-editor-tiny_mce						TinyMCE

@@ -1,0 +1,26 @@
+module-name													Typy atributů
+
+# akce
+
+# data
+
+group														Skupina
+priority													Pořadí
+key															Klíč
+type														Typ
+variant														Varianty
+title														Název
+format														Formát zobrazení
+text														Text
+data														Data
+
+type-select													výběr
+type-null													skupina / prázdný 
+type-boolean												logická hodnota
+type-integer												celé číslo
+type-float													reálné číslo
+type-datetime												datum
+type-string													text
+type-file													soubor
+
+variant-locale												podle jazyků

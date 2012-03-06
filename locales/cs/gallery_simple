@@ -1,0 +1,7 @@
+module-name													Fotogalerie
+
+# akce
+
+get-url														fotogalerie/
+
+# data

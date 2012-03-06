@@ -1,0 +1,18 @@
+module-name													Kalendář
+
+# akce
+
+get-url														kalendar/
+
+# data
+
+datum														Datum
+nazev														Název
+typ															Typ
+vysledky													Výsledky
+propozice													Propozice
+poradatel_jmeno												Pořadatel: Jméno
+poradatel_telefon											Pořadatel: Telefon
+poradatel_email												Pořadatel: E-mail
+poradatel_web												Pořadatel: Web
+poradatel_text												Pořadatel: Text

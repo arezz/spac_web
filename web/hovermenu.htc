@@ -1,0 +1,31 @@
+<attach event="onmouseover" handler="rollOver" />
+<attach event="onmouseout" handler="rollOff" />
+
+<script type="text/javascript">
+
+//in IE 5.5-, when you apply a width to UL, list-style-position: inside; is forced with its LIs
+if( !document.compatMode && navigator.userAgent.indexOf( 'Win' ) + 1 ) { element.style.marginLeft = 0;  element.style.display='inline';  }
+
+function rollOver() {
+	//change the colour
+	element.style.backgroundColor = '';
+	element.style.color = 'blue';
+	//change display of child
+	for( var x = 0; element.childNodes[x]; x++ ){
+		if( element.childNodes[x].tagName == 'UL' ) { element.childNodes[x].style.display = 'block'; }
+	}
+}
+
+function rollOff() {
+	//change the colour
+	element.style.backgroundColor = '';
+	element.style.color = '';
+	//change display of child
+	for( var x = 0; element.childNodes[x]; x++ ){
+		if( element.childNodes[x].tagName == 'UL' ) { element.childNodes[x].style.display = 'none'; }
+	}
+}
+
+</script>
+
+

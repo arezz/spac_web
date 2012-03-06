@@ -1,0 +1,140 @@
+/* Autor: Přemysl Posker */
+
+* {margin: 0px; padding: 0px;}
+.clear:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+* html .clear {height:1%;} /*skryto pred IE-mac*/
+.clearing {clear:both;display:block;}
+body {font-size:75%;font-family:Arial,Verdana,sans-serif;line-height:1.7em;background:#000000 url(../_images/bgBody2.gif) repeat-x top left;padding:0px 0px 0px 0px;color:#aaaaaa;}
+img {border:0px;}
+label {cursor:pointer;}
+a {text-decoration:underline;}
+a:hover {text-decoration:none;}
+input {}
+textarea {}
+.center {text-align:center;}
+.justify {text-align:justify;}
+.right {text-align:right;}
+
+
+#lead {width:996px;margin:0px auto;position:relative;padding:0px;background:#0a0a0a url(../_images/bgLead.gif) repeat-x;padding:122px 0px 0px 0px;}
+#hlava {position:absolute;height:185px;width:100%;top:122px;left:0px;background:url(../_images/bgHlava.gif) no-repeat top center;}
+
+#logo {width:996px;height:109px;display:block;left:0px;top:13px;position:absolute;overflow:hidden;z-index:1;}
+#logo h1, #logo h1 span {width:996px;height:109px;position:absolute;top:0px;left:0px;z-index:1;overflow:hidden;color:#fff;padding-left:0px;padding-top:0px;margin:0px;}
+#logo h1 span {width:996px;height:109px;background-image:url(../_images/logo.png);background-repeat:no-repeat;display:block;left:0px;cursor:pointer;margin:0px;overflow:hidden;}
+#logo a {color:#fff;}
+
+.flash {height:191px;text-align:center;}
+
+.menu {height:37px;padding:16px 0px 0px 20px;clear:both;}
+
+.menu ul {margin:0px;padding:0px;list-style:none;}
+.menu ul li {list-style:none;position:relative;behavior:url('web/hovermenu.htc');float:left;}
+.menu ul ul {z-index:1;position:absolute;left:0px;top:20px;display:none;width:100px;}
+/*odkazy rozbaleného podmenu */
+.menu ul ul li {clear:both;}
+.menu ul ul li a {font-size:0.9em;background-color:#ff8400;display:block;padding:2px 0px 2px 10px;text-decoration:none;width:90px;color:#fff;}
+/*odkazy rozbaleného podmenu:hover */
+.menu ul ul li a:hover{color:#000;text-decoration:none;background:#ffbb72;}
+.menu ul.level1 li:hover ul.level2 {display:block;}
+
+.menu a {display:block;float:left;margin:0px 2px;height:20px;}
+.menu img {}
+.menu a.home {background:url(../_images/btnHome.gif) no-repeat;width:45px;}
+.menu a.onas {background:url(../_images/btnOnas.gif) no-repeat;width:46px;}
+.menu a.kontakty {background:url(../_images/btnKontakty.gif) no-repeat;width:70px;}
+.menu a.aktuality {background:url(../_images/btnAktuality.gif) no-repeat;width:72px;}
+.menu a.kalendar {background:url(../_images/btnKalendar.gif) no-repeat;width:71px;}
+.location__kalendar_get .menu a.kalendar {background-position:0px -20px;}
+.menu a.poradi {background:url(../_images/btnPoradi.gif) no-repeat;width:54px;}
+.location__poradi_get .menu a.poradi {background-position:0px -20px;}
+.menu a.fotogalerie {background:url(../_images/btnFotogalerie.gif) no-repeat;width:89px;}
+.location_gallery_get .menu a.fotogalerie {background-position:0px -20px;}
+.menu a.archiv {background:url(../_images/btnArchiv.gif) no-repeat;width:54px;}
+.menu a.uzitecne {background:url(../_images/btnUzitecne.gif) no-repeat;width:66px;}
+.menu a.kronika {background:url(../_images/btnKronika.gif) no-repeat;width:70px;}
+.menu a.diskuze {background:url(../_images/btnDiskuze.gif) no-repeat;width:59px;}
+.menu a:hover {background-position:0px -20px;}
+.menu a span {display:none;}
+.menu a.active {background-position:0px -20px;}
+.menu li:hover a {background-position:0px -20px;}
+
+.content {padding:28px 21px;}
+.content a {color:#ff8f16;}
+
+.obsah {background:url(../_images/bgObsah.gif) repeat-y;border-bottom:25px solid #0a0a0a;_height:1px;}
+
+.mainCol {width:730px;float:left;}
+.mainCol .homeImg {background:#2a2a2a;border:1px solid #403f3f;padding:7px;float:left;margin-right:30px;}
+.mainCol h2 {font-family:Myriad Pro;font-size:1.65em;color:#ff8f16;text-transform:uppercase;margin-bottom:12px;}
+.mainCol h2 span {color:#fff;}
+.mainCol h3 {font-family:Myriad Pro;font-size:1.25em;color:#ff8f16;text-transform:uppercase;margin-bottom:8px;}
+.mainCol p {margin-bottom:12px;}
+.mainCol strong {color:#fff;}
+.mainCol hr {border-width:1px 0px 0px 0px;border-style:solid;border-color:#403f3f;margin:15px 0px;}
+.mainCol ol {margin-left:25px;margin-bottom:12px;}
+.mainCol ol.upalpha {list-style:upper-alpha;}
+.mainCol ol.roman {list-style:upper-roman;}
+.mainCol ol.loweralpha {list-style:lower-alpha;}
+.mainCol ol.none {list-style:none;margin-left:6px;}
+.mainCol ol.none ol {margin-left:15px;}
+.mainCol ul {list-style:none;margin-bottom:12px;}
+.mainCol ul.none li {background:none;}
+.mainCol ul li {background:url(../_images/listArrow.gif) no-repeat 4px 8px;padding:0px 0px 20px 29px;}
+.mainCol .homeObsah {width:533px;float:left;}
+
+.mainCol table {width:100%;border-collapse:collapse;}
+.mainCol table th {color:#ffffff;text-align:left;padding:0.5em 0.5em;}
+.mainCol table td {padding:0.5em 0.5em;vertical-align:top;}
+.mainCol table td a {background:url(../_images/listArrow.gif) no-repeat right 50%;padding-right:14px;}
+.mainCol table td.actions {text-align:center;}
+.mainCol table td.actions a {margin-right:9px;}
+.mainCol table td.date {font-weight:bold;}
+.mainCol table td.name {font-weight:bold;}
+.mainCol table tr.grey td {background:#272727;}
+
+.mainCol .orange {color:#ff8f16;}
+
+.mainCol table.kontakty {width:auto;border-collapse:collapse;}
+
+.partneri {width:210px;float:right;text-align:center;}
+.partneri h3 {font-family:Myriad Pro;font-size:1.65em;color:#ff8f16;text-transform:uppercase;margin-bottom:12px;}
+.partneri img {float:left;}
+.partneri .partnerItem {background:#fff;padding:5px;width:119px;margin:0px auto 6px auto;}
+.partneri .partnerItemPrihlas {background:#900;padding:5px;width:119px;margin:0px auto 15px auto;}
+
+.partneri {width:210px;float:right;text-align:center;}
+.partneri h3 {font-family:Myriad Pro;font-size:1.65em;color:#ff8f16;text-transform:uppercase;margin-bottom:12px;}
+.partneri img {float:left;}
+.partneri .partnerItem {background:#fff;padding:5px;width:119px;margin:0px auto 6px auto;}
+.partneriWhole .partnerItem {background:#fff;padding:5px;width:119px;margin:0px auto 6px auto;}
+.partneriWhole img {float:left;}
+#lead .partneriWhole td {vertical-align:middle;}
+#lead .partneriWhole a {background:none;padding:0px;}
+
+.footer {text-align:right;border-top:1px solid #403f3f;padding:15px 0px 0px 0px;}
+.footer p {float:left;text-align:left;}
+
+form fieldset { border: 0; }
+form fieldset div.layout_item { clear: both; margin-top: 1ex; }
+form fieldset div.label { float: left; width: 30%; font-weight: bold; }
+form fieldset div.required div.label { color: red; }
+form fieldset div.element { margin-left: 33%; }
+
+form div.element_kategorie input { width: 30ex; }
+form div.element_tym input { width: 40ex; }
+
+.news_list_item {clear:both;}
+.news_list_item img {float:left;margin:0px 15px 10px 0px;border:1px solid #E67801;padding:2px;}
+.news_list_item .ocreated {display:block;font-size:0.9em;}
+.news_list_item .title {font-size:1.1em;font-weight:bold;display:block;}
+
+.news_detail img {float:left;margin:0px 15px 10px 0px;border:1px solid #E67801;padding:2px;}
+.news_detail .ocreated {display:block;font-size:0.9em;}
+.news_detail .title {font-size:1.1em;font-weight:bold;display:block;}
+.news_detail .summary {font-weight:bold;margin-bottom:15px;}
+
+iframe {width:1000px;height:1000px;border:0px;border-top:10px solid #fff;margin-left:0px;}
+
+.mesta .checkItem input {vertical-align:middle;margin-bottom:1px;margin-right:4px;}
+.mesta .checkItem {float:left;display:block;padding:2px 10px 2px 0px;white-space:nowrap;} 

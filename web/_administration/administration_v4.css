@@ -1,0 +1,155 @@
+/* Autor: Přemysl Posker */
+
+* {margin: 0px; padding: 0px;}
+.clear:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+* html .clear {height:1%;} /*skryto pred IE-mac*/
+.clearing {clear:both;display:block;}
+body {font-size:75%;font-family:Verdana,Arial,sans-serif;line-height:1.5em;background:#ebebeb;padding:10px;color:#000000;}
+img {border:0px;}
+label {cursor:pointer;}
+a {text-decoration:underline; color:#f8b454;}
+a:hover {text-decoration:none;}
+
+/***********************  Login  ***********************/
+
+#loginLead {padding:20px;}
+#loginLead a {color:#f6a93e;}
+.loginForm {width:360px;height:140px;padding:20px;border:1px solid #010101;background:#fff;margin:0px auto;}
+.loginForm h2 {background:url(../images_v4/userImg.gif) no-repeat left 50%;padding-left:30px;height:22px;padding-top:3px;font-size:1.4em;margin-bottom:15px;}
+.loginForm table {border-collapse:collapse;width:320px;margin:0px auto;}
+.loginForm table td {padding:0.4em 0.4em;vertical-align:top;}
+.loginForm table td .iText {width:159px;border:1px solid #ebebeb;height:17px;padding:2px;}
+.loginForm table td .btn {border:0px solid #ebebeb;background:#f6a93e;color:#fff;font-weight:bold;font-size:1em;padding:0.4em 0.7em;}
+.help {width:400px;margin:0px auto;padding:5px 0px;text-align:right;font-size:0.9em;}
+
+
+
+/***********************  Spolecne  ***********************/
+
+.pages {margin:20px 0;}
+.pages select { display: none; }
+.pages a { text-decoration: none; padding: 1px 3px; }
+.pages a:hover { background: #f8b454; color: white; }
+/*.pages a.page_prev {background:url(images_v4/arrowPrev.gif) no-repeat left 65%;padding-left:11px;color:transparent;}
+.pages a.page_next {background:url(images_v4/arrowNext.gif) no-repeat right 65%;padding-right:11px;color:transparent;}*/
+
+table {width:100%;border-collapse:collapse;border:1px solid #e3e3e3;margin-bottom:15px;}
+table th {border:1px solid #e3e3e3;background:#f8b454;color:#fff;font-weight:normal;padding:4px 7px;font-size:0.9em;text-align:left;}
+table td {border:1px solid #e3e3e3;padding:4px 7px;}
+
+table.layout, table.layout td.layout, table.page_info, table.page_info td { border: 0; }
+table.layout td.layout { border: 0; }
+
+.actions_top { clear: both; margin-bottom: 1em; }
+.actions_top a { padding: 1ex; }
+.actions_top a.link_action_new {background:url(images_v4/bgAdd.gif) no-repeat left 50%;padding:4px 20px 4px 35px;/*display:block;float:left;*/}
+
+/***********************  Layout  ***********************/
+
+#lead {margin:0px auto;min-width:973px;_width:973px;position:relative;padding:6px;background:#fff;}
+
+.top {height:52px;}
+
+.content {border-collapse:collapse;width:100%;border:0}
+.mainCol {vertical-align:top;border:0}
+
+.footer {padding:10px 0px;font-family:Arial;color:#898989;}
+.footer a {color:#f6a93e;}
+
+.top .user {padding:10px 0px 0px 12px;color:#898989;float:left;}
+.top .user img {vertical-align:middle;margin-right:15px;}
+.top .user strong {color:#000000;margin-right:35px;}
+.top .user .logout {color:#f6a93e;padding-left:22px;background:url(images_v4/logout.gif) no-repeat left 50%;}
+
+.top .language {float:right;padding:20px 20px 0px 0px;}
+.top .language span {padding-left:27px;color:#636363;margin-left:15px;}
+.top .language a {padding-left:27px;color:#f6aa3f;margin-left:15px;}
+
+.menuTop {padding-bottom:20px;}
+.menuTop .menuGroups {list-style:none;height:25px;}
+.menuTop .menuGroups li {float:left;margin-right:8px;}
+.menuTop .menuGroups li a {display:block;float:left;height:22px;padding:3px 20px 0px 20px;background:url(images_v4/bgDomtabsItem.gif) repeat-x;color:#1c1c1c;text-decoration:none;}
+.menuTop .menuGroups li a:hover {background:#010101;color:#ffffff}
+.menuTop .menuGroups li.active a {background:#010101;color:#ffffff;}
+
+.menuTop .menuLine {background:#010101;_height:1px;}
+.menuTop .menuLine a {display:block;float:left;width:auto;height:26px;background:url(images_v4/bgDomtabItem.gif) repeat-x;padding:6px 30px 0px 30px;color:#fff;text-decoration:none;}
+.menuTop .menuLine a:hover {background:url(images_v4/bgDomtabItemActive.gif) repeat-x;}
+.menuTop .menuLine a.active {background:url(images_v4/bgDomtabItemActive.gif) repeat-x;}
+.menuTop .menuLine img {float:left;}
+
+.leftCol {width:247px;padding-right:25px;vertical-align:top;border:0}
+.leftCol .leftColDiv {width:247px;}
+.leftCol .panel {border:1px solid #e3e3e3;margin-bottom:17px;}
+.leftCol .panel .in {padding:10px;}
+.leftCol .panel .in ul {list-style:none;}
+.leftCol .panel .in ul.plusminus li {padding-left:30px;}
+.leftCol .panel .in ul.plusminus li.plus {background:url(images_v4/folderPlus.gif) no-repeat left 50%;}
+.leftCol .panel .in ul.plusminus li.minus {background:url(images_v4/folderMinus.gif) no-repeat left 50%;}
+.leftCol .panel .in ul li {padding:3px 0px;}
+.leftCol .panel .in a {color:#f6a93d;}
+.leftCol .panel h3 {min-height:26px;_height:26px;padding:6px 10px 0px 15px;background:#f6a93d url(images_v4/bgHeader.gif) repeat-x left bottom;font-size:1.1em;color:#ffffff;font-weight:normal;}
+.leftCol .panel h3.support {background:url(images_v4/zachrannyKruh.gif) no-repeat left 50%;padding-left:38px;color:#000000;font-weight:bold;}
+
+.leftCol .panel .panel_list ul li {background:url(images_v4/folder.gif) no-repeat left 6px;padding-left:28px;}
+.leftCol .panel .panel_list ul li.active a {text-decoration:none;}
+.leftCol .panel .panel_list ul li ul {margin:10px 0px 15px 0px;}
+.leftCol .panel .panel_list ul li ul li {padding:2px 0px;background:url(images_v4/arrowList.gif) no-repeat 1px 10px;padding-left:11px;font-size:0.9em;}
+.leftCol .panel .panel_list ul li.active ul li a {text-decoration:underline;}
+.leftCol .panel .panel_list ul li.active ul li a:hover {text-decoration:none;}
+.leftCol .panel .panel_list ul li ul li a {color:#252525;}
+.leftCol .panel .panel_list ul li ul li ul {margin:5px 0px 10px 0px;}
+.leftCol .panel .panel_list ul li ul li ul li {padding:1px 0px;background:url(images_v4/dotList.gif) no-repeat 1px 11px;padding-left:11px;font-size:1em;}
+.leftCol .panel .panel_list ul li ul li ul li a {color:#959595;}
+
+.mainCol .page_info {width:100%;border-collapse:collapse;margin-bottom:15px;}
+.mainCol .page_info td {vertical-align:top;}
+.mainCol .page_info h2 {font-size:1.35em;color:#0a0a0a;font-weight:normal;margin-bottom:20px;}
+.mainCol .page_info .right {padding-right:25px;}
+.mainCol .page_info .vyhledat {font-size:.9em;background:url(images_v4/bgVyhledavani.gif) no-repeat left 50%;padding-left:29px;}
+.mainCol .page_info img {vertical-align:middle;margin-right:15px;}
+.mainCol .page_info .path {padding-bottom:15px;font-size:0.9em;}
+.mainCol .page_info .back {padding-left:30px;background:url(images_v4/arrowBack.gif) no-repeat left 50%;}
+.mainCol .page_info .actions {padding-bottom:15px;}
+
+
+
+
+
+
+
+
+
+
+/*
+.mainCol .item {border:1px solid #e3e3e3;margin-bottom:18px;overflow:hidden;}
+.mainCol .item h3 {min-height:23px;_height:23px;padding:3px 10px 0px 15px;background:#f6a93d url(images_v4/bgHeader.gif) repeat-x left bottom;font-size:1.1em;color:#ffffff;font-weight:normal;}
+.mainCol .item .in {_height:1px;padding:10px;}
+
+.mainCol .params {width:100%;border-collapse:collapse;}
+.mainCol .params td {padding:6px 6px;vertical-align:top;}
+
+.mainCol .params td table {border-collapse:collapse;}
+.mainCol .params td table td {padding:6px 12px 6px 0px;}
+.mainCol .params td input {vertical-align:middle;}
+.mainCol .params td .iText {padding:2px;}
+.mainCol .params td .iPrice {padding:2px;width:98px;}
+.mainCol .params td .full {width:99%;}
+.mainCol .params td select {padding:2px;}
+.mainCol .params td textarea {height:96px;padding:2px;font-family:Arial;font-size:1em;line-height:1.6em;}
+
+.mainCol .picItem {width:335px;height:145px;float:left;}
+.mainCol .picItem table {width:100%;border-collapse:collapse;}
+.mainCol .picItem table .pic {border:1px solid #e7e7e7;width:150px;text-align:center;vertical-align:middle;}
+.mainCol .picItem table .desc {padding-left:18px;}
+.mainCol .picItem table .desc p {margin-bottom:8px;}
+
+.mainCol .item .addMore {padding:25px;background:#f1f1f1;}
+
+.mainCol table td.foto {text-align:center;}
+.mainCol table td.productName {font-size:0.9em;}
+.mainCol table tr.small td {font-size:0.9em;}
+.mainCol table tr.dark td {background:#f5f5f5;}
+*/
+
+

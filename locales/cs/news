@@ -1,0 +1,9 @@
+module-name													Aktuality
+
+# akce
+
+get-url														aktuality/
+
+# data
+
+attachment													Příloha

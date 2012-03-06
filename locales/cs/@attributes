@@ -1,0 +1,16 @@
+module-name													Atributy
+
+# akce
+
+# data
+
+module														Modul
+object														Záznam
+key															Klíč
+variant														Varianta
+value_integer												Hodnota (celé číslo)
+value_float													Hodnota (reálné číslo)
+value_string												Hodnota (text)
+value_datetime												Hodnota (datum)
+value_file													Hodnota (soubor)
+value_boolean												Hodnota (logická)

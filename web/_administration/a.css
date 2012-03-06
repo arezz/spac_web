@@ -1,0 +1,611 @@
+body {
+	margin: 0;
+}
+
+body, td, th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+input, select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+.application a img {
+	border: 0;
+}
+
+.application table {
+	width: 100%;
+	/*margin-top: 1em;*/
+}
+
+.application table th {
+	background: black;
+	color: white;
+}
+
+.application table tr:hover {
+	/*background: skyblue;*/
+}
+
+.application table td {
+	vertical-align: top;
+}
+
+.application table td.actions a {
+	margin-right: 2px;
+}
+
+.application form fieldset {
+	border: 2px solid black;
+	border-top: 20px solid black;
+	margin: 20px 0;
+}
+
+.application form fieldset > div > div {
+	margin-bottom: 4px;
+	clear: both;
+}
+
+.application form fieldset legend {
+	color: white;
+	background: black;
+	text-align: center;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.application form fieldset legend:before {
+	content: "« ";
+}
+
+.application form fieldset legend:after {
+	content: " »";
+}
+
+
+.application form label {
+	font-weight: bold;
+}
+.application form .required label {
+	color: #8b0000;
+}
+
+.application form div.errors {
+	color: red;
+	font-weight: bold;
+}
+
+.application form div.notes {
+	color: #a9a9a9;
+	font-weight: bold;
+}
+
+.application form div.errors,
+.application form div.notes {
+	font-size: 0.8em;
+	clear: both;
+	display: block;
+	margin: 5px 0 5px 27%;
+}
+
+.application form .label label {
+	vertical-align: top;
+	text-align: right;
+	font-weight: bold;
+	width: 25%;
+	float: left;
+	display: block;
+	margin-right: 1em;
+}
+
+.application form *[readonly=readonly] {
+	background: #ddd;
+}
+
+/*.application form fieldset .element {
+	margin-left: 26%;
+}*/
+
+.application form input,
+.application form textarea,
+.application form iframe,
+.application form select,
+.application form .field {
+	width: 65%;
+}
+
+.application form input[type=checkbox],
+.application form input[type=file] {
+	width: auto;
+}
+
+.application form select.datetime {
+	width: 60px;
+}
+
+.application form .form_date .element {
+	float: left;
+	margin-right: 2em;
+}
+.application form .form_date .element > input {
+	width: 12ex;
+}
+
+.application form textarea {
+	height: 20em;
+}
+
+.application form a {
+	padding-right: 1ex;
+}
+
+.application form .form_html .label label {
+	display: none;
+}
+
+/*.application form .header {
+	color: white;
+	background: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.application form .label {
+	vertical-align: top;
+	text-align: right;
+	font-weight: bold;
+	width: 25%;
+}
+
+.application form .field {
+	width: 65%;
+	padding-right: 10%;
+}
+
+.application form input, form textarea {
+	width: 100%;
+}
+
+.application form select {
+	width: 50%;
+}
+
+.application form select.timestamp {
+	width: 60px;
+}
+
+.application form textarea {
+	height: 20em;
+}
+
+.application form a {
+	padding-right: 1ex;
+}*/
+
+.application div.tooltip {
+	display: none;
+}
+
+.application span.tooltip {
+	border: 1px solid black;
+	padding: 0px 4px;
+	background: lightskyblue;
+	color: blue;
+}
+
+/*******************************************************************************************/
+
+.application .top {
+	background: orange;
+	border: 2px solid black;
+	vertical-align: middle;
+	/*text-align: center;*/
+	margin-bottom: 1ex;
+}
+
+.application .valid {
+	display: none;
+	background: orange;
+	border: 2px solid black;
+	margin-left: 2ex;
+}
+
+.application .top .title:before { /*content: "Poski.com : ";*/
+	font-weight: bold;
+}
+
+.application .top .title {
+	padding-left: 2ex;
+	font-weight: bold;
+}
+
+.application .top .info {
+	border-top: 2px solid black;
+	padding-left: 2ex;
+}
+
+.application .top .logout {
+	padding-left: 1ex;
+	padding-right: 1ex;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	height: 1.5em;
+	background: black;
+}
+
+.application .top .logout:hover {
+	color: yellow;
+}
+
+/*******************************************************************************************/
+
+.application #login {
+	margin: auto;
+	width: 30em;
+	background: white;
+}
+
+.application #login .workspace { /*margin-left: 0;*/
+	width: 100%;
+	float: none;
+}
+
+.application #login .top {
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+}
+
+.application #login .top .logo {
+	border: 1px solid black;
+	margin: 1px;
+}
+
+.application #login .top .messages {
+	display: none;
+}
+
+/*******************************************************************************************/
+
+.application #menu {
+	padding: 2px;
+	border: 2px solid black;
+	background: black;
+	color: white;
+}
+
+.application #menu a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.application #menu a.selected {
+	color: #87cefa;
+}
+
+.application #menu a:hover {
+	color: yellow;
+}
+
+/*.application #menu a:after {
+	content: " | ";
+}*/
+
+/*******************************************************************************************/
+
+.application #left {
+	float: left;
+	/*width: 10em;*/
+	width: 15%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-right: 1em;
+	background: black;
+	padding: 1ex;
+}
+
+.application #left #contextmenu {
+
+}
+
+.application #left #contextmenu div > span {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 1ex;
+	width: 100%;
+	border-bottom: 1px dashed white;
+	color: white;
+}
+
+.application #left #contextmenu a {
+	display: block;
+	background: #ccc;
+	text-decoration: none;
+	border: 2px solid white;
+	margin-bottom: 1ex;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.application #left #contextmenu a > span {
+	display: block;
+	width: 100%;
+}
+
+.application #left #contextmenu a > span:hover {
+	background: #333;
+	color: white;
+}
+
+.application #left .panel {
+	font-size: 8pt;
+	border-top: 1px dashed white;
+	color: white;
+}
+
+.application #left .panel a {
+	color: white;
+	text-decoration: underline;
+}
+
+.application #left .panel a:hover {
+	text-decoration: none;
+}
+
+.application #left .panel h2 {
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.application #left .panel object {
+	margin-left: -3px;
+}
+
+#topmenu {
+	position:relative;
+	padding-bottom: 1ex;
+	/*border-bottom: 2px solid black;*/
+}
+
+#topmenu .menu_group {
+	clear: both;
+}
+
+#topmenu .menu_group strong {
+	display: block;
+	float: left;
+	width: 10ex;
+	padding: 1ex 2ex;
+	border: 2px solid transparent;
+}
+
+#topmenu .menu_group a {
+	color: black;
+	font-size: 0.8em;
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 1ex 2ex;
+	border: 2px solid transparent;
+}
+
+#topmenu .menu_group a:hover {
+	border: 2px solid black;
+	background-color: lightskyblue;
+}
+
+/*
+
+.menu li{
+   position:relative;
+   display:inline;
+   cursor:pointer;
+}
+
+.menu li a{
+   text-decoration:none;
+   color:gray;
+   width:100%;
+   height:100%;
+}
+
+.menu li a:hover{
+   color:black;
+}
+
+.menu li:hover{
+   background-color:gray;
+   color:black;
+}
+
+.menu li ul{
+   position:absolute;
+   white-space:nowrap;
+   text-align:left;
+   list-style:none;
+   display:none;
+   z-index:5;
+   left:0%;
+   top:1.15em;
+   margin:0px;
+   padding:0px;
+   border:1px solid gray;
+   background-color:black;
+}
+
+.menu li ul li{
+   position:relative;
+   left:0px;
+   display: list-item;
+   cursor:pointer;
+}
+
+.menu li ul li{
+   position:relative;
+   left:0px;
+   cursor: pointer;
+   width:200px;
+}
+
+.menu li ul li a{
+   display:block;
+   margin-left:3px;
+   margin-right:3px;
+}
+
+.menu li:hover > ul{
+   display:block;
+}*/
+
+/*******************************************************************************************/
+
+.application .messages * {
+	background: white;
+	text-align: center;
+	margin: 1ex;
+}
+
+.application .messages .information {
+	background: #ccfbc4;
+	border: 1px solid green;
+}
+
+.application .messages .error {
+	background: #ffc0c0;
+	border: 1px solid red;
+}
+
+.application .messages .warning {
+	background: #ffffc0;
+	border: 1px solid #804000;
+}
+
+/*.application .title {
+	color: white;
+	background: black;
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	border-top: 1px dotted white;
+}*/
+
+.application .filter {
+	margin-top: 1ex;
+}
+
+.application .filter .quick div {
+	display: inline;
+}
+
+.application .filter .quick div.label,
+.application .filter .quick div.element {
+	margin-right: 1ex;
+}
+
+.application .order {
+	margin-top: 1ex;
+}
+
+.application .order select {
+	width: 200px;
+}
+
+.application .pages {
+	margin: 1ex 0;
+	padding: 5px 0;
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+}
+
+.application .pages select { /*float: right;*/
+
+}
+
+.application .pages a,.application .pages span {
+	margin-right: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 2pt;
+	padding-right: 2pt;
+	color: blue;
+}
+
+.application .pages .selected {
+	margin-right: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background: blue;
+}
+
+.application .parents {
+	margin-top: 1ex;
+}
+
+/*.application .parents a:before {
+	content: " » ";
+}*/
+.application .actions_top > a {
+	padding: 0.5ex 3em;
+	margin: 0.5ex 1em 0.5ex 0;
+	text-align: center;
+	border: 2px solid black;
+	background: #ccc;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	line-height: 2em;
+	vertical-align:middle;
+}
+
+.application .actions_top > a:hover {
+	background: #333;
+	color: white;
+}
+
+.application .tree {
+	padding: 1ex 1em 1ex 1ex;
+	margin-right: 1em;
+	/*border-right: 1px dashed black;*/
+}
+
+.application .tree ul {
+	padding: 0 0 0 1em;
+}
+
+.application table.layout > tbody > tr:hover {
+	background: transparent;
+}
+
+.application table.layout > tbody > td {
+	vertical-align: top;
+}
+
+.application .mceEditor a {
+	padding-right: 0;
+}
+
+.application .mceEditor table {
+	width: auto;
+}
+
+/*******************************************************************************************/
+
+.application .workspace .output {
+	margin: 5px;
+}
+
+.application iframe {
+	border: 2px solid black;
+	margin-bottom: 1ex;
+	margin-left: 5px;
+	clear: both;
+	width: 99%;
+}

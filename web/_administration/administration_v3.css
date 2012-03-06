@@ -1,0 +1,633 @@
+/*  Licence: © Copyright 2008 Poski.com s.r.o. Všechna práva vyhrazena. Kopírování bez souhlasu majitele zakázáno.*/
+
+.clear:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+* html .clear {height:1%;} /*skryto pred IE-mac*/
+
+body {font-family:Verdana,Arial;font-size:9pt;background:#bad7ff url(images_v3/bgBody.gif) repeat-x top;margin:0;padding:0;color:#000000;}
+
+#top {width:100%;min-height:135px;_height:135px;clear:both;}
+#top #instalation {position:absolute;width:169px;height:31px;padding:13px 0px 0px 0px;font-size:0.8em;top:4px;left:20px;text-align:center;background-image:url(images_v3/bgInstalation.gif);}
+#top #user {position:absolute;float:right;color:#FFFFFF;font-size:0.8em;top:20px;right:20px;}
+#top #user a {color:#FFFFFF;text-decoration:underline;}
+#top #user a:hover {text-decoration:none;}
+#top #topMenu {width:100%;min-height:80px;_height:80px;margin:0px 0px 0px 0px;padding:55px 0px 0px 10px;background-image:url(images_v3/bgTopMenu.gif);background-position:bottom;background-repeat: repeat-x;}
+#topMenu:after {content:".";display:block;height:0;clear:both;visibility:hidden;}
+* html #topMenu {height:1%;}
+#top #topMenu a {font-size:0.8em;color:#000000;text-decoration:none;display:block;min-height:19px;_height:19px;width:60px;text-align:center;float:left;padding:50px 7px 5px 7px;background-repeat:no-repeat;background-position: center top;border:1px solid transparent;margin-bottom:5px;}
+#top #topMenu a:hover {display:block;border:1px solid #9ea2a8;background-color:#bad7ff;text-decoration:underline;}
+
+/** PRIDAL JAKUB - KLIDNE PREPRACUJ **/
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+
+input {
+	font-size: 9px;
+}
+
+input.submit {
+	height: auto !important;
+}
+
+select {
+	font-size: 9px;
+}
+
+a {
+  color:#a7a7a7;
+}
+
+table {
+  border-collapse:collapse;
+}
+
+.module_iis_companies .text_item pre {
+	margin:0px;
+}
+
+.module_iis_projects .iis_items_items .branch {
+  font-size:0.8em;
+}
+
+.module_iis_projects ._list_template_objects td.items {
+  background-color:#E9F2FE;
+  padding-bottom:20px;
+}
+
+.module_iis_projects ._list_template_objects td.items .branch .timestamp,
+.module_iis_projects ._list_template_objects td.items .branch .type,
+.module_iis_projects .iis_items_items .branch .iis_items_item .timestamp,
+.module_iis_projects .iis_items_items .branch .iis_items_item .type {
+  font-weight:bold;
+}
+
+.module_iis_projects ._list_template_objects td.items hr {
+  display:none;
+}
+
+.application a img {
+	border: 0;
+}
+
+.application table {
+	width: 100%;
+	/*margin-top: 1em;*/
+}
+
+.application table td {
+  border:1px solid #a7a7a7;
+}
+
+.application table th {
+	background: #666666; color: white;
+	border:1px solid #a7a7a7;
+	padding:1ex;
+	font-size:0.9em;
+}
+
+.application table tr:hover {
+	/*background: skyblue;*/
+}
+
+.module_iis_action_home table {
+  width:100%;
+  border:0px;
+}
+
+.module_iis_action_home table td.projects {
+  border:0px;
+  padding: 0ex;
+  padding-bottom:3ex;
+}
+
+.module_iis_action_home table td.items {
+  border:0px;
+  padding-left: 3ex;
+  padding-bottom:3ex;
+}
+
+.module_iis_action_home table td.projects table td, .module_iis_action_home table td.items table td {
+  background:#e9f2fe;
+  padding:2px;
+  font-size:0.8em;
+}
+
+.application form fieldset,
+.application form__new fieldset {
+	/*border:0px;
+	padding:0px;
+	margin:0px;*/
+	background:#F5F5F5;
+}
+
+.application form fieldset.login_fieldset {
+  line-height:2.4em;
+  padding-top:15px;
+  padding-bottom:8px;
+  margin:0px;
+  background:#ebebeb url(images_v3/bgLogin.gif) no-repeat bottom;
+}
+
+.application form fieldset.login_fieldset label {
+  display: inline;
+  float:none;
+}
+
+.application form fieldset.login_fieldset legend {
+  display: none;
+}
+
+.application form fieldset > div > div {
+	margin-bottom: 4px;
+	clear: both;
+}
+
+.application form fieldset legend {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+	/*display:none;*/
+}
+
+/*.application form fieldset legend:before {
+	content: "« ";
+}
+
+.application form fieldset legend:after {
+	content: " »";
+}*/
+
+.application form fieldset .required {
+	color: #8b0000;
+}
+
+.application form fieldset span.error {
+	color: red;
+	font-weight: bold;
+}
+
+.application form fieldset span.note {
+	color: #a9a9a9;
+	font-weight: bold;
+}
+
+.application form fieldset span.error, .application form fieldset span.note {
+	font-size: 0.8em;
+	clear: both;
+	display: block;
+	margin: 5px 0 5px 27%;
+}
+
+.application form fieldset label {
+	vertical-align: top;
+	text-align: right;
+	font-weight: bold;
+	width: 25%;
+	float: left;
+	display: block;
+	margin-right: 1em;
+}
+
+.application form fieldset label:first-letter {
+/*	text-decoration: underline;*/
+}
+
+.application form fieldset input, .application form fieldset textarea, .application form fieldset iframe, .application form fieldset select, .application form fieldset .field {
+	width: 65%;
+}
+
+.application form fieldset select.datetime {
+	width: 60px;
+}
+
+.application form fieldset input.date {
+	width: 12ex;
+}
+
+.application form fieldset textarea {
+	height: 7em;
+}
+
+.application form fieldset a {
+	padding-right: 1ex;
+}
+
+.application form fieldset .form_html label {
+	display: none;	
+}
+
+.application form.filter fieldset {
+	margin: 0;
+}
+
+/*******************************************************************************************/
+
+.application .messages * {
+	background: white;
+	text-align: center;
+	margin: 1ex 2ex 1ex 2ex;
+}
+
+.application .messages .information {
+	background: #f5f5f5;
+	border: 1px solid #494949;
+	padding:1ex;
+}
+
+.application .messages .error {
+	background: #ffc0c0;
+	border: 1px solid red;
+}
+
+.application .messages .warning {
+	background: #ffffc0;
+	border: 1px solid #804000;
+}
+
+/*******************************************************************************************/
+
+.application #login {
+	margin: auto;
+	width: 294px;
+}
+
+.application #login .workspace {
+	/*margin-left: 0;*/
+	width: 100%;
+	float: none;
+}
+
+/*.application #login form label {
+  width:auto;
+}*/
+
+.application #login form, .application #login form table {
+	width: 100%;
+}
+
+.application #login .top {
+	width: 100%;
+	height: 48px;
+	margin-top:130px;
+	background:#BAD7FF;
+	text-align:center;
+}
+
+.application #login .top .title {
+  background:#0160EB url(images_v3/bgTitle.gif) no-repeat top;
+  height: 40px;
+  color:#FFFFFF;
+  font-weight:bold;
+  text-align:left;
+  padding-left:10px;
+  padding-top:8px;
+}
+
+.application #login .top .logo {
+	margin: 1px;
+}
+
+.application #login .top .messages {
+	display: none;
+}
+
+/*******************************************************************************************/
+
+
+
+.application .workspace .title {
+	color: white;
+	background: black;
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	border-top: 1px dotted white;
+}
+
+.location_administration .application .workspace #filter_form_container {
+	line-height: 2.2em;
+	border:1px solid #000;
+	background:#f5f5f5;
+	padding:10px 10px 0px 10px;
+	position:absolute;
+	width:350px;
+	top:5px;
+	right:5px;
+	font-size:0.9em;
+}
+
+.application .workspace #filter_form_container label {width:100px;margin:0px;}
+.application .workspace #filter_form_container a.close {display:block;top:-3px;right:5px;position:absolute;text-decoration:none;color:#000;}
+
+.application .workspace .order {
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+}
+
+.application .workspace .order select {
+	width: 200px;
+}
+
+.application .workspace .pages {
+	margin: 1ex 0;
+	padding: 5px 0;
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+}
+
+.application .workspace .pages select {
+	/*float: right;*/
+}
+
+.application .workspace .pages a, .application .workspace .pages span {
+	margin-right: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	padding-left: 2pt;
+	padding-right: 2pt;
+	color: #E7740C;
+}
+
+.application .workspace .pages .selected {
+	margin-right: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background: #E7740C;
+}
+
+.application .workspace .parents {
+	margin-top: 1ex;
+}
+
+/*.application .workspace .parents a:before {
+	content: " Â» ";
+}*/
+
+.module {float:left;min-width:200px;_width:200px;}
+
+.module .icon {height:25px;margin-right:15px;}
+
+.application .workspace .actions_top {
+  float:left;
+  margin-top:4px;
+}
+
+.application .workspace .actions_top:before {
+	content: '|';
+	color: white;
+}
+
+.application .workspace .actions_top > a {
+	padding:0px 20px 0px 10px;
+	margin-right: 1em;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.application .workspace .actions_top > a:hover {
+	color: white;
+	text-decoration:underline;
+}
+
+.application .workspace .tree {
+	padding: 1ex 1em 1ex 1ex;
+	margin-right: 1em;
+	/*border-right: 1px dashed black;*/
+}
+
+.application .workspace .tree ul {
+	padding: 0 0 0 1em;
+}
+
+.application .workspace .module_iis_action_home .board {
+  width:auto;
+  margin-top:3ex;
+  margin-bottom:3ex;
+  border:1px solid #A7A7A7;
+  background:#F5F5F5;
+}
+
+.application .workspace .module_iis_action_home .board .form__home {
+  padding:2ex;
+  background:#F5F5F5;
+}
+
+.application .workspace .module_iis_action_home .board form label {
+	display: none;
+}
+
+.application .workspace .module_iis_action_home .board form input.submit {
+	width: 10%;
+} 
+
+.application .workspace .module_iis_action_home .board .item {
+	padding: 1ex;
+	border-bottom: 1px solid #A7A7A7;
+	font-size:0.9em;
+	background:#E9F2FE;
+}
+
+.application .workspace .module_iis_action_home .board .user {
+	font-weight: bold;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.application .workspace .module_iis_action_home .board .date {
+	font-style: italic;
+}
+
+.application .workspace .module_iis_action_home .board .text {
+	margin-top: 1ex;
+}
+
+.application .workspace .module_iis_action_home .board .text .Code {
+	display: block;
+	font-family: monospace;
+	background: silver;
+	border: 1px solid black;
+	padding: 4px;
+}
+
+/*******************************************************************************************/
+
+.application .container {
+	margin-bottom: 1ex;
+}
+
+.application .container > iframe {
+	display: none;
+}
+
+.application .container > .info {
+	background: url(images_v3/bgInfo.gif);
+	height:32px;
+	border:0px;
+	padding:8px 17px 0px 17px;
+	margin:2ex 2ex 0ex 2ex;
+	color: white;
+}
+
+.application .container > .info strong.url {
+	display: none;
+}
+
+.application .container > .info img {
+  vertical-align:middle;
+}
+
+.application .container > .info > .icon {
+  margin-right:15px;
+  height: 25px;
+}
+
+.application .container > .info > .button {
+	font-weight: bold;
+	float: right;
+	margin-left:5px;
+	cursor: pointer;
+}
+
+.application .container > .info > .button_close {
+  background:url(images_v3/bgClose.gif);
+  width:25px;
+  height:25px;
+}
+
+.application .container > .info > .button_reload {
+  background:url(images_v3/bgReload.gif);
+  width:25px;
+  height:25px;
+}
+
+.application .container > .info > .button_filter {
+  background:url(images_v3/bgFilter.gif);
+  width:25px;
+  height:25px;
+}
+
+.application .container > .output {
+	margin: 0 2ex 2ex 2ex;
+	background-color:#f5f5f5;
+	position:relative;
+}
+
+.application img.wait {
+	margin-left: 50%;
+}
+
+.application div.tooltip {
+	display: none;
+}
+
+.application span.tooltip {
+	border: 1px solid black;
+	padding: 0px 4px;
+	background: lightskyblue;
+	color: blue;
+}
+
+/*******************************************************************************************/
+
+.application table.layout td, .application table.layout th {
+  border:0px solid #a7a7a7;
+  /*padding-left: 3ex;
+  padding-right: 3ex;
+  padding-bottom: 3ex;*/
+}
+
+.application table.layout td table td, .application table.layout td table th {
+  border:1px solid #a7a7a7;
+  padding:2px 0px 2px 3px;
+}
+
+.application table.layout td table tr.even td {
+  background:#f3f3f3;
+}
+
+.application .module_iis_projects_action_list table.layout td table tr.even td {
+  background:#FFFFFF;
+}
+
+.application table.layout td table tr.odd td {
+  background:#ffffff;
+}
+
+.application table. > tbody > tr:hover {
+	background: transparent;
+}
+
+.application table.layout > tbody > td {
+	vertical-align: top;
+}
+
+/*******************************************************************************************/
+
+.application .mceEditor a {
+	padding-right: 0;
+}
+
+.application .mceEditor table {
+	width: auto;
+}
+
+/*******************************************************************************************/
+
+.iis_items_item {
+	margin: 2px 0;
+	padding:3px;
+  border-top: 1px solid #A7A7A7;
+}
+
+.iis_items_item > div {
+	margin: 0 0.5ex;
+	padding: 0 0.5ex;
+}
+
+.mceLayout {
+  width:60%;
+}
+
+/******************** ZAJEMCI ***********************************************/
+
+#iis_companies_interested-company {
+  width: 30ex;
+}
+
+#iis_companies_interested-company_id {
+  width: 30ex;
+}
+
+#iis_companies_interested-ouid {
+  width: 30ex;
+}
+
+#iis_companies_interested-newsletter {
+  width: 30ex;
+}
+
+.action_home table {border:0px solid;}
+.action_home table td {border:0px solid;}
+
+td.tasks {padding-right:5px;}
+td.tasks table {margin-bottom:10px;}
+.action_home table td.tasks table td {border:1px solid #a7a7a7;font-size:0.85em;padding:2px;}
+
+td.tasks_today {padding-left:5px;}
+td.tasks_today table {margin-bottom:10px;}
+.action_home table td.tasks_today table td {border:1px solid #a7a7a7;font-size:0.85em;padding:2px;}
+
+td.tasks_added {padding-right:5px;}
+td.tasks_added table {margin-bottom:10px;}
+.action_home table td.tasks_added table td {border:1px solid #a7a7a7;font-size:0.85em;padding:2px;}
+
+.action_home table td.projects {padding-left:5px;}
+td.projects table {margin-bottom:10px;}
+.action_home table td.projects table td {border:1px solid #a7a7a7;}

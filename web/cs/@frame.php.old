@@ -1,0 +1,205 @@
+<?php
+	$main = $GLOBALS['templates']['main']->process();
+	if ($GLOBALS['page']['simple'])
+		$title = Core::title();
+	if (!isset($GLOBALS['templates']['frame']) || @$GLOBALS['page']['flags']['no-frame'])
+	{
+		echo $main;
+		return;
+	}
+?>
+
+<div id="hlava"></div>
+  
+  <div id="lead">
+    
+    <div id="logo">
+      <h1><a href="/" title="Návrat na úvodní stránku">Slezský Pohár Amatérských Cyklistů<span></span></a></h1>
+    </div> <!-- #logo -->
+    
+    <div class="flash">
+      <img src="/web/_images/flash.jpg" alt="" title="" />
+    </div>
+    
+    <div class="menu">
+      <ul class="level1">
+        <li><a href="/" class="home<?php if ($GLOBALS['page']['location'] == "index") echo ' active'; ?>"><span>Home</span></a></li>
+        <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="/o-nas" class="onas<?php if ($GLOBALS['page']['location'] == "soupiska-tymu") echo ' active'; ?><?php if ($GLOBALS['page']['location'] == "stanovy") echo ' active'; ?><?php if ($GLOBALS['page']['location'] == "soutezni-rad") echo ' active'; ?><?php if ($GLOBALS['page']['location'] == "pravidla") echo ' active'; ?><?php if ($GLOBALS['page']['location'] == "historie") echo ' active'; ?><?php if ($GLOBALS['page']['location'] == "o-nas") echo ' active'; ?>"><span>O nás</span></a>
+          <ul class="level2">
+            <li><a href="/historie">Historie</a></li>
+            <li><a href="/pravidla">Pravidla</a></li>
+            <li><a href="/soutezni-rad">Soutěžní řád</a></li>
+            <li><a href="/stanovy">Stanovy</a></li>
+            <li><a href="/soupiska-tymu">Soupiska týmů</a></li>
+          </ul>
+        </li>
+        <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="/kontakty" class="kontakty<?php if ($GLOBALS['page']['location'] == "kontakty") echo ' active'; ?>"><span>Kontakty</span></a></li>
+        <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="/aktuality/" class="aktuality<?php if ($GLOBALS['page']['location'] == "news/get") echo ' active'; ?>"><span>Aktuality</span></a></li>
+        <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="/kalendar/" class="kalendar"><span>Kalendář</span></a></li>
+        <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="/poradi/" class="poradi"><span>Pořadí</span></a></li>
+        <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="/fotogalerie/" class="fotogalerie"><span>Fotogalerie</span></a></li>
+        <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="/kronika/" class="kronika"><span>Kronika</span></a>
+          <ul class="level2">
+            <li><a href="/kronika/kron-uvod">Úvod</a></li>
+            <li><a href="/kronika/kron-2010">2010</a></li>
+            <li><a href="/kronika/kron-2009">2009</a></li>
+            <li><a href="/kronika/kron-2008">2008</a></li>
+            <li><a href="/kronika/kron-2007">2007</a></li>
+            
+          </ul>
+        </li>
+       <!-- <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="" class="archiv"><span>Archív</span></a></li> -->
+        <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="/uzitecne" class="uzitecne<?php if ($GLOBALS['page']['location'] == "uzitecne") echo ' active'; ?>"><span>Užitečné</span></a></li>
+        <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
+        <li><a href="/diskuze" class="diskuze<?php if ($GLOBALS['page']['location'] == "diskuze") echo ' active'; ?>"><span>Diskuze</span></a></li>
+      </ul>
+    </div>
+    
+    <div class="content">
+
+<?php if ($GLOBALS['page']['location'] == "_poradi/get") 
+{       
+ echo '<!--';
+}
+?>
+
+       <div class="obsah">
+         <div class="mainCol"> 
+
+<?php if ($GLOBALS['page']['location'] == "_poradi/get") 
+{       
+ echo '-->';
+}
+?>
+   
+          
+          <?php
+          	echo $main;
+          ?>
+
+<?php if ($GLOBALS['page']['location'] == "_poradi/get") 
+{       
+ echo '<!--';
+}
+?>
+            <div class="clearing"></div>
+         </div>
+        
+         <div class="partneri">
+           <div class="partnerItemPrihlas">
+             <a href="http://igmk.xf.cz/cyklistika/vypis-zavodu.php" onclick="return !window.open(this.href)"><h4>Přihlašování na závody</h4></a>
+             <span class="clearing"></span>
+           </div>  
+          
+           <div class="partnerItem">
+                 <a href="http://www.toplist.cz/stat/467931">
+<script type="text/javascript" language="JavaScript">
+&lt;!--
+document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&amp;start=1709&amp;http='+escape(document.referrer)+'&amp;wi='+escape(window.screen.width)+'&amp;he='+escape(window.screen.height)+'&amp;t='+escape(document.title)+'" width="88" height="60" border=0 alt="TOPlist" /&gt;');
+//--&gt;</script><img width="88" height="60" border="0" alt="TOPlist" src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&amp;start=1709&amp;http=http%3A//www.spac-os.cz/uzitecne&amp;wi=1280&amp;he=800&amp;t=Slezsk%FD%20poh%E1r%20amat%E9rsk%FDch%20cyklist%u016F"/>
+                    <noscript>
+                      &lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&amp;start=1709" border="0" alt="TOPlist" width="88" height="60" /&gt;</noscript></a>
+            <span class="clearing"></span>
+           </div>
+           <div class="partnerItem">
+             <a href="http://www.bison.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_Bison_web_inv.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>  
+      
+            <div class="partnerItem">
+             <a href="http://www.lawi.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_08_Lawi.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+           <div class="partnerItem">
+             <a href="http://www.klusport.com/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_07_Klusport_Aminostar2_s.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+           <div class="partnerItem">
+             <a href="http://www.pohary-bauer.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_11_Bauer.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+           <div class="partnerItem">
+             <a href="http://www.rozhlas.cz/ostrava/portal/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_02_cesky_rozhlas.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+           <div class="partnerItem">
+             <a href="http://www.bagbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_bagbike.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+           
+<?php if ($GLOBALS['page']['location'] == "_poradi/get") 
+{       
+ echo '-->';
+}
+?>
+            <!--<div class="partnerItem">
+             <a href="http://www.sabe.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_09_Sabe.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>-->
+           
+            <!--<div class="partnerItem">
+             <a href="http://www.kolik.org/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_03_kolik.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+           <div class="partnerItem">
+             <a href="http://www.repronis.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_01_repronis.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+           <div class="partnerItem">
+             <a href="http://www.poharykabourek.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_10_Kabourek.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+            <div class="partnerItem">
+             <a href="http://www.namlyne.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_mlyn_cmyk.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>   -->
+           
+<?php if ($GLOBALS['page']['location'] == "_poradi/get") 
+{       
+ echo '<!--';
+}
+?>
+
+           <div class="partnerItem">
+             <a href="http://www.poski.com/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_00_poski.gif" alt="Poski.com s.r.o." title="Poski.com s.r.o." /></a>
+             <span class="clearing"></span>
+           </div>
+          
+           <p>
+             <a href="/partneri">všichni partneři</a>
+           </p>
+         </div>
+        
+         <div class="clearing"></div>
+       </div>
+      
+       <div class="footer">
+         <p>
+           &copy; Copyright 2011 - <strong>Vedení SPAC  -  Tomáš Celta</strong> - ředitel soutěže<br />
+           Tel. (+420) 604 490 681 , E-mail: <a href="mailto: tcraam@post.cz">tcraam@post.cz</a>
+         </p>
+        
+         <a href="http://www.poski.com/" onclick="return !window.open(this.href)">Webdesign Poski.com</a>
+        
+         <div class="clearing"></div>
+       </div>
+   
+       
+<?php if ($GLOBALS['page']['location'] == "_poradi/get") 
+{       
+ echo '-->';
+}
+?>
+
+ </div> <!-- #content -->
+    
+  </div> <!-- #lead -->

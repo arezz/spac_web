@@ -1,0 +1,50 @@
+RewriteEngine on
+ErrorDocument 404											/index.php?page.locale=cs&page.location=404
+
+RewriteCond %{HTTP_HOST}									!^.*\..*\..*
+RewriteRule ^(.*)$											http://www.%{HTTP_HOST}/$1	[R=301,L]
+RewriteRule ^third-party/.*\.php							/index.php	[L,QSA,E=page.location:300]
+
+<Files ~ "image_pjpeg">
+	DefaultType image/pjpeg
+</Files>
+
+<Files ~ "image_jpeg">
+	DefaultType image/jpeg
+</Files>
+
+<Files ~ "image_gif">
+	DefaultType image/gif
+</Files>
+
+<Files ~ "application_pdf">
+	DefaultType application/pdf
+</Files>
+
+<Files ~ "\.thumb">
+	DefaultType image/jpeg
+</Files>
+
+<Files ~ "\.full">
+	DefaultType image/jpeg
+</Files>
+
+RewriteCond %{REQUEST_URI}									/web/.*$
+RewriteCond %{REQUEST_FILENAME}								/.+\.(swf|flv|avi|txt|htm|html|htc|css|js|png|jpg|gif|pdf|doc|xls|odt|ico|rar)$
+RewriteRule .*												-	[L]
+RewriteCond %{REQUEST_URI}									/web/fotogalerie/
+RewriteRule .*												-	[L]
+RewriteCond %{REQUEST_URI}									/third-party/
+RewriteRule .*												-	[L]
+RewriteCond %{REQUEST_URI}									/data/blob/
+RewriteRule .*												-	[L]
+RewriteCond %{REQUEST_URI}									/data/files/
+RewriteRule .*												-	[L]
+RewriteCond %{REQUEST_URI}									/_/
+RewriteRule .*												-	[L]
+RewriteCond %{REQUEST_FILENAME}								/(index|captcha|test|phpinfo)\.php$
+RewriteRule .*												-	[L]
+RewriteCond %{REQUEST_FILENAME}								/robots.txt$
+RewriteRule .*												-	[L]
+
+RewriteRule ^(.+)$											/index.php	[L,QSA]
