@@ -56,7 +56,7 @@
 		</tr>
 	{/foreach}
 </table>
-
+<!--
 <br />
 <h3>Další závody:</h3>
 <br />
@@ -81,6 +81,7 @@
 24.09.2011	do vrchu Pusteven	TJ Rožnov p. Radhoštěm<br />
 28. 09. 2011 	Finále poháru	CK Orlík Orlová<br />
 <br />
+-->
 Více informací na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a><br /> a na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a>!<br />
 
 {** BLOCK @get **}
