@@ -49,7 +49,7 @@
 		    	{if ($object->propozice)}
 		    		<a href="/data/blob-rename/{$object->propozice}/{$object->nazev|urlize}-propozice.{$object->propozice|regex_replace:'~.*\.([a-zA-Z]+)$~':'\1'}">propozice</a>
 		    	{/if}
-		    	{if ($object->datum > time())}
+		    	{if (($object->datum > time()) && ($object->datum < (time()+3600*24*14)))}
 		    		<a href="http://igmk.xf.cz/cyklistika/prihlaseni-zavodnika.php">přihlášení</a>
 		    	{/if}
 		    </td>
