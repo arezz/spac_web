@@ -70,19 +70,9 @@
 14.7.	CK  Feso Petřvald - Okružní<br />
 25.8.	TJ Baník Havířov - do vrchu<br />
 <br />
-<strong>MSSC:</strong>
-<br />
-08. 05. 2011	O pohár starosty, silniční	CK Orlík Orlová<br />	
-15. 05. 2011 	Olšovecké okruhy	TJ Sigma Hranice<br />
-18. 06. 2011 	Cena Farm Tour 	Vítězslav Dostál, Hlubočec<br />
-19. 06. 2011	do vrchu Javorový	TJ TŽ Třinec<br />
-06.07. 2011	Mezi ploty-okružní	ACK Stará Ves n. Ondřejnicí<br />
-17. 09. 2011	do vrchu Bahenec-časovka	CK Orlík Orlová<br />		
-24.09.2011	do vrchu Pusteven	TJ Rožnov p. Radhoštěm<br />
-28. 09. 2011 	Finále poháru	CK Orlík Orlová<br />
-<br />
 -->
-Více informací na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a><br /> a na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a>!<br />
+Další závody na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a>,<br />A na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a>!<br />
+Předběžný kalendář ČSC<a href="http://mssc.websnadno.cz/kalendar_zavodu_2012_csc.xls">zde ke stažení</a>.<br />
 
 {** BLOCK @get **}
 	{a result=$G.invocation->dispatch()}
