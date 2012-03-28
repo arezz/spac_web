@@ -68,7 +68,7 @@ textarea {}
 .mainCol .homeImg {background:#2a2a2a;border:1px solid #403f3f;padding:7px;float:left;margin-right:30px;}
 .mainCol h2 {font-family:Myriad Pro;font-size:1.65em;color:#ff8f16;text-transform:uppercase;margin-bottom:12px;}
 .mainCol h2 span {color:#fff;}
-.mainCol h3 {font-family:Myriad Pro;font-size:1.25em;color:#ff8f16;text-transform:uppercase;margin-bottom:8px;}
+.mainCol h3 {font-family:Myriad Pro;font-size:1.25em;color:#FFFFFF;text-transform:uppercase;margin-bottom:8px;}
 .mainCol p {margin-bottom:12px;}
 .mainCol strong {color:#fff;}
 .mainCol hr {border-width:1px 0px 0px 0px;border-style:solid;border-color:#403f3f;margin:15px 0px;}
@@ -81,7 +81,9 @@ textarea {}
 .mainCol ul {list-style:none;margin-bottom:12px;}
 .mainCol ul.none li {background:none;}
 .mainCol ul li {background:url(../_images/listArrow.gif) no-repeat 4px 8px;padding:0px 0px 20px 29px;}
-.mainCol .homeObsah {width:533px;float:left;}
+.mainCol .homeObsahOld {width:533px;float:left;}
+.mainCol .homeObsah {width:730px;float:left;}
+.mainCol .anketa {width:195px;float:left;}
 
 .mainCol table {width:100%;border-collapse:collapse;}
 .mainCol table th {color:#ffffff;text-align:left;padding:0.5em 0.5em;}
