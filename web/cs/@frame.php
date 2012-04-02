@@ -111,7 +111,7 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
             <span class="clearing"></span>
            </div>
            <div class="partnerItem">
-             <a href="http://www.bison.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_Bison_web_inv.gif" alt="" title="" /></a>
+             <a href="http://www.maxbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_Maxbike3.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>  
       
@@ -129,10 +129,6 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
            </div>
            <div class="partnerItem">
              <a href="http://www.rozhlas.cz/ostrava/portal/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_02_cesky_rozhlas.gif" alt="" title="" /></a>
-             <span class="clearing"></span>
-           </div>
-           <div class="partnerItem">
-             <a href="http://www.bagbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_bagbike.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
            
