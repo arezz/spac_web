@@ -136,7 +136,7 @@ form div.element_tym input { width: 40ex; }
 .news_detail .title {font-size:1.1em;font-weight:bold;display:block;}
 .news_detail .summary {font-weight:bold;margin-bottom:15px;}
 
-iframe {width:1000px;height:1000px;border:0px;border-top:10px solid #fff;margin-left:0px;}
+iframe {width:750px;height:1000px;border:0px;border-top:10px solid #fff;margin-left:0px;}
 
 .mesta .checkItem input {vertical-align:middle;margin-bottom:1px;margin-right:4px;}
 .mesta .checkItem {float:left;display:block;padding:2px 10px 2px 0px;white-space:nowrap;} 

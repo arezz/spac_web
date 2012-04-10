@@ -66,7 +66,7 @@
     
     <div class="content">
 
-<?php if (($GLOBALS['page']['location'] == "_poradi/get") || ($GLOBALS['page']['location'] == "diskuze")) 
+<?php if ($GLOBALS['page']['location'] == "_poradi/get") 
 {       
  echo '<!--';
 }
@@ -75,7 +75,7 @@
        <div class="obsah">
          <div class="mainCol"> 
 
-<?php if (($GLOBALS['page']['location'] == "_poradi/get") || ($GLOBALS['page']['location'] == "diskuze")) 
+<?php if ($GLOBALS['page']['location'] == "_poradi/get")
 {       
  echo '-->';
 }
@@ -86,7 +86,7 @@
           	   echo $main;    
           ?>
 
-<?php if (($GLOBALS['page']['location'] == "_poradi/get") || ($GLOBALS['page']['location'] == "diskuze"))
+<?php if ($GLOBALS['page']['location'] == "_poradi/get")
 {       
  echo '<!--';
 }
@@ -132,7 +132,7 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <span class="clearing"></span>
            </div>
            
-<?php if (($GLOBALS['page']['location'] == "_poradi/get") || ($GLOBALS['page']['location'] == "diskuze")) 
+<?php if ($GLOBALS['page']['location'] == "_poradi/get")  
 {       
  echo '-->';
 }
@@ -159,7 +159,7 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <span class="clearing"></span>
            </div>   -->
            
-<?php if (($GLOBALS['page']['location'] == "_poradi/get") || ($GLOBALS['page']['location'] == "diskuze")) 
+<?php if ($GLOBALS['page']['location'] == "_poradi/get") 
 {       
  echo '<!--';
 }
@@ -190,7 +190,7 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
        </div>
    
        
-<?php if (($GLOBALS['page']['location'] == "_poradi/get") || ($GLOBALS['page']['location'] == "diskuze")) 
+<?php if ($GLOBALS['page']['location'] == "_poradi/get") 
 {       
  echo '-->';
 }
