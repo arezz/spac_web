@@ -71,8 +71,10 @@
 25.8.	TJ Baník Havířov - do vrchu<br />
 <br />
 -->
-Další závody na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a>,<br />A na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a>!<br />
-Předběžný kalendář ČSC<a href="http://mssc.websnadno.cz/kalendar_zavodu_2012_csc.xls">zde ke stažení</a>.<br />
+Další závody na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a>,<br />
+na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a>!<br />
+Předběžný kalendář ČSC <a href="http://mssc.websnadno.cz/kalendar_zavodu_2012_csc.xls">zde ke stažení</a>.<br />
+Zde naleznete závody <a href="http://www.jesenickysnek.com/index.php/kalenda">Jesenického šneka</a>.<br />
 
 {** BLOCK @get **}
 	{a result=$G.invocation->dispatch()}
