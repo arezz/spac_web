@@ -1,27 +1,245 @@
-"Kategorie A";12;;;;;;;;;;;;;;;;;;;;;
-"pøíjmení";"jméno";"klub";"Trispol";"èas. ArcelorMittal";"Mlyn.èas.";"Krnov";"Hodinovka";"TdS";"VP";"Zlín";"Cena Continentalu.";"TdJ";"MRSAC";"MRSAC";"GPF";"Stonava";"VCL";"M60";"Paskov";"Bìlá";"M.A.D.";"Krásná"
-;;;;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;;;
-"Kategorie B";12;;;;;;;;;;;;;;;;;;;;;
-"pøíjmení";"jméno";"klub";"Trispol";"èas. ArcelorMittal";"Mlyn.èas.";"Krnov";"Hodinovka";"TdS";"VP";"Zlín";"Cena Continentalu.";"TdJ";"MRSAC";"MRSAC";"GPF";"Stonava";"VCL";"M60";"Paskov";"Bìlá";"M.A.D.";"Krásná"
-;;;;;;;;;;;;;;;;;;;;;;
-"Kategorie C";12;;;;;;;;;;;;;;;;;;;;;
-"pøíjmení";"jméno";"klub";"Trispol";"èas. ArcelorMittal";"Mlyn.èas.";"Krnov";"Hodinovka";"TdS";"VP";"Zlín";"Cena Continentalu.";"TdJ";"MRSAC";"MRSAC";"GPF";"Stonava";"VCL";"M60";"Paskov";"Bìlá";"M.A.D.";"Krásná"
-;;;;;;;;;;;;;;;;;;;;;;
-"Kategorie D";12;;;;;;;;;;;;;;;;;;;;;
-"pøíjmení";"jméno";"klub";"Trispol";"èas. ArcelorMittal";"Mlyn.èas.";"Krnov";"Hodinovka";"TdS";"VP";"Zlín";"Cena Continentalu.";"TdJ";"MRSAC";"MRSAC";"GPF";"Stonava";"VCL";"M60";"Paskov";"Bìlá";"M.A.D.";"Krásná"
-;;;;;;;;;;;;;;;;;;;;;;
-"Kategorie E";12;;;;;;;;;;;;;;;;;;;;;
-"pøíjmení";"jméno";"klub";"Trispol";"èas. ArcelorMittal";"Mlyn.èas.";"Krnov";"Hodinovka";"TdS";"VP";"Zlín";"Cena Continentalu.";"TdJ";"MRSAC";"MRSAC";"GPF";"Stonava";"VCL";"M60";"Paskov";"Bìlá";"M.A.D.";"Krásná"
-;;;;;;;;;;;;;;;;;;;;;;
-"Kategorie A";12;;;;;;;;;;;;;;;;;;;;;
-"pøíjmení";"jméno";"klub";"Trispol";"èas. ArcelorMittal";"Mlyn.èas.";"Krnov";"Hodinovka";"TdS";"VP";"Zlín";"Cena Continentalu.";"TdJ";"MRSAC";"MRSAC";"GPF";"Stonava";"VCL";"M60";"Paskov";"Bìlá";"M.A.D.";"Krásná"
-;;;;;;;;;;;;;;;;;;;;;;
-"Kategorie B";12;;;;;;;;;;;;;;;;;;;;;
-"pøíjmení";"jméno";"klub";"Trispol";"èas. ArcelorMittal";"Mlyn.èas.";"Krnov";"Hodinovka";"TdS";"VP";"Zlín";"Cena Continentalu.";"TdJ";"MRSAC";"MRSAC";"GPF";"Stonava";"VCL";"M60";"Paskov";"Bìlá";"M.A.D.";"Krásná"
-;;;;;;;;;;;;;;;;;;;;;;
-"Kategorie M";12;;;;;;;;;;;;;;;;;;;;;
-"pøíjmení";"jméno";"klub";"Trispol";"èas. ArcelorMittal";"Mlyn.èas.";"Krnov";"Hodinovka";"TdS";"VP";"Zlín";"Cena Continentalu.";"TdJ";"MRSAC";"MRSAC";"GPF";"Stonava";"VCL";"M60";"Paskov";"Bìlá";"M.A.D.";"Krásná"
-;;;;;;;;;;;;;;;;;;;;;;
-"Drustva";20;;;;;;;;;;;;;;;;;;;;;
-"pøíjmení";"jméno";"klub";"Trispol";"èas. ArcelorMittal";"Mlyn.èas.";"Krnov";"Hodinovka";"TdS";"VP";"Zlín";"Cena Continentalu.";"TdJ";"MRSAC";"MRSAC";"GPF";"Stonava";"VCL";"M60";"Paskov";"Bìlá";"M.A.D.";"Krásná"
+"Kategorie A";12;;
+"pøíjmení";"jméno";"klub";"Trispol"
+"Alickun";"Eduard";"TJ Kolík Bohumín 1";0
+"Bubeník";"Jiøí";"CykloservisMB-Airoo";0
+"Cimbálník";"Pavel";"Cyklo MXM Hulín";20
+"Èernı";"Viktor";"YOGI Racing Ostrava 1";0
+"Diblík";"Jan";"Racing Olešná";0
+"Galatík";"Roman";"CK Continental Frenštát p. R. 1";20
+"Grepl";"Radim";"CK Hobby Bohumín B";0
+"Gruchala";"Vojtìch";"Triatlon klub Ostrava";20
+"Helebrandt";"Pavel";"BSS OPAVA";20
+"Jablonski";"Marcin";;20
+"Kubínek";"Aleš";"CK Hobby Bohumín B";0
+"Kusidlo ";"Mariusz";"CK Hobby Bohumín A ";0
+"Kvapulínskı";"Martin";"Cube-Light";20
+"Malošík";"Jan";"CK Orlík Orlová";0
+"Maták";"Andrej";"Cykloklub Kysuce";0
+"Musiol";"Jakub";"Yogi Racing Ostrava";20
+"Musiol";"Lukáš";"YOGI Racing Ostrava 2";0
+"Neulinger";"Ondøej";"SK Jiøí Tream Ostrava";20
+"Palider";"Jan";"Triatlon klub Ostrava";0
+"Pastušek ";"Jan";"SK Maxbike Orlová";0
+"Pavlík ";"Petr";"Racing Olešná";20
+"Pavlík ";"Jan";"Racing Olešná";0
+"Prouza";"Martin";"Triatlon klub Ostrava";0
+"Rut";"Ondøej";"Triatlon klub Ostrava";0
+"Salomon";"Marek";"SK Maxbike Orlová";0
+"Satke";"Tomáš";"BSS OPAVA";20
+"Sobek";"Ondøej";"CK Hobby Bohumín A ";0
+"Škoda";"Kristián";"CK Continental Frenštát p. R. 1";20
+"Štainer";"Pavel";"SK Valašského království";0
+"Šustr";"Vilém";"ACK Stará Ves n. Ondøejnicí";20
+"Veleckı";"Tomáš";"YOGI Racing Ostrava 1";0
+"Willmann";"Filip";"Skvelakola.cz";20
+"Èer";"Tomáš";"Bikestyle.cz";20
+"Drozdsz";"Tomasz";"MTB Team UCI";20
+"Hamáèek";"Jaroslav";"ACS DRAK VRBNO";20
+"Haman";"Martin";"MILKA-Superior";20
+"Kokošek";"Oldøich";"Novatop-Lapierre";20
+"Markos";"Tanas";"CK Frenštát";20
+"Olejník";"Martin";"Bruntál";20
+"Pilèík";"Adam";"Bikestyle.cz";20
+"Pøichystal";"Lukáš";"PM Bike idlochovice";20
+"Rohel";"Bøetislav";"Bikestyle.cz";20
+"Øeháèek";"Vojtìch";"BSS OPAVA";20
+"Svientı";"Radek";"Bikestyle.cz";20
+"Svoboda";"Jan";"Yogi Racing Ostrava";20
+"Štainer";"Pavel";;20
+;;;
+"Kategorie B";12;;
+"pøíjmení";"jméno";"klub";"Trispol"
+"Bában";"Marcel";"CykloservisMB-Airoo";0
+"Balica";"Lukáš";"Racing Olešná";0
+"Beníèek";"Tomáš";"CK Continental Frenštát p. R. 2";20
+"Bollo";"Roman";"YOGI Racing Ostrava 1";0
+"Celta";"Tomáš";"CK Continental Frenštát p. R. 1";20
+"Dulava";"David";"Skvelakola.cz";20
+"Foltın";"Jiøí";"CK Hobby Bohumín A ";20
+"Gierc";"David";;0
+"Harabiš";"Radim";"SK Valašského království";0
+"Hlawiczka";"Martin";"Skvelakola.cz";20
+"Chamrád";"Jiøí";"CK Continental Frenštát p. R. 1";0
+"Javorek";"Petr";"ACK Stará Ves n. Ondøejnicí";0
+"Jeek";"Petr";"CykloservisMB-Airoo";0
+"Jirásek";"Josef";"YOGI Racing Ostrava 2";20
+"Jureèka";"Roman";"CK Continental Frenštát p. R.";20
+"Klášterka ";"Tomáš";"ACK Stará Ves n. Ondøejnicí";0
+"Kokeš";"Pavel";"SK Valašského království";0
+"Kolesár";"Radek";"TJ Kolík Bohumín 1";0
+"Kotas";"Wieslaw";"TJ T Tøinec";0
+"Kovaøík";"Roman";"TJ Kolík Bohumín 2";0
+"Kozák";"Pavel";"Cyklokramo Suchdol n. O. 2";0
+"Král";"Martin";"YOGI Racing Ostrava 2";0
+"Kroll";"Andrzej";"Skvelakola.cz";20
+"Kubala";"Janusz";"CykloservisMB-Airoo";0
+"Machotka";"Karel";"YOGI Racing Ostrava 1";0
+"Malík";"Roman";"Racing Olešná";0
+"Martinák";"Tomáš";"SK Valašského království";0
+"Novotnı ";"Jiøí";"Team Forman Cinelli";0
+"Plucnar";"Pavel";"TJ T Tøinec";0
+"Podhornı";"Jarmil";"YOGI Racing Ostrava 1";0
+"Povala";"Roman";"CK Continental Frenštát p. R. 1";0
+"Schnerch";"Martin";"Skvelakola.cz";20
+"Sikora";"Tomáš";"ACK Stará Ves n. Ondøejnicí";0
+"Stanìk ";"Pavel";"Cyklosport Pøikryl Stará Ves n. O.";20
+"Štec";"Josef";"Cyklokramo Suchdol n. O. 1";0
+"Toman";"Petr";"Team Forman Cinelli";20
+"Uvíra ";"Václav";"CK Orlík Orlová";0
+"Vrábel";"David";"SK Valašského království";0
+"Domanskı";"Libor";;20
+"Hajzler";"Marian";"SK ORBEA";20
+"Heinrich";"Lukáš";"Bikestyle.cz";20
+"Kainar";"Tomáš";"Nutrend Specialized";20
+"Karmelita";"Tomáš";"LOKO Krnov";20
+"Kula";"Tomáš Pavel";"Rybnik";20
+"Macczak";"Laszek";;20
+"Najser";"Tomáš";"BIKEONE";20
+;;;
+"Kategorie C";12;;
+"pøíjmení";"jméno";"klub";"Trispol"
+"Beneš";"Petr";"YOGI Racing Ostrava 1";0
+"Blachowski";"Riszard";"CK Orlík Orlová";0
+"Buchal";"Ivo";"Racing Olešná";0
+"Dohnal";"Blahoslav";"Cyklistika pro všechny Krnov";20
+"Fajkus";"Petr";"KCK Zlín";20
+"Fierla ";"Jan";"CK Feso Petøvald";0
+"Franta";"Roman";"Racing Olešná";0
+"Galuška";"Tomáš";"LowellPro Šafrata team Bohumín";20
+"Gatnar";"Jiøí";"CK Hobby Bohumín B";0
+"Giraczka";"Martin";"LowellPro Šafrata team Bohumín";0
+"Grussmann";"Václav";"CK Continental Frenštát p. R. 1";20
+"Havlíèek";"Robert";"YOGI Racing Ostrava 3";0
+"Chruòák";"Martin";"YOGI Racing Ostrava 2";0
+"Jakl";"Jiøí";"Triatlon klub Ostrava";20
+"Kaiser ";"Zdenìk";;0
+"Konderla";"Martin";"Skvelakola.cz";20
+"Kráèmar";"Petr";"TJ Kolík Bohumín 1";0
+"Lach";"Alan";"Racing Olešná";0
+"Lysek";"Vladimír";"CK Continental Frenštát p. R. 1";0
+"Michal";"Robert";"CykloservisMB-Airoo";0
+"Rupa";"Miroslav";"YOGI Racing Ostrava 2";0
+"Satinskı";"Alexandr";"YOGI Racing Ostrava 1";20
+"Schichel ";"Tomáš";"YOGI Racing Ostrava 3";0
+"Sokol";"Pavel";"Cyklokramo Suchdol n. O. 1";0
+"Šimeèek";"Radim";"Mildar Pøíbor";20
+"Škarka";"Jiøí";"CK Hobby Bohumín A ";20
+"Tihlaøík";"Stanislav";"Cyklistika pro všechny Krnov";0
+"Viteèek";"Petr";"TJ Kolík Bohumín 2";0
+"Vodièka ";"Štìpán";"Cyklosport Pøikryl Stará Ves n. O.";0
+"Wenzel";"Roman";"Max Cursor";20
+"Widenka";"Aleš";"TJ Kolík Bohumín 1";0
+"Wilhelm";"Jaroslav";"TJ Kolík Bohumín 1";20
+"ebrák";"Radim";"TJ Kolík Bohumín 2";0
+"Marek";"Miroslav";"Scott-Bicykle";20
+"Strapek";"Jan";"Jeseník";20
+"Zahrádka";"Tomáš";"ZHOR Team";20
+;;;
+"Kategorie D";12;;
+"pøíjmení";"jméno";"klub";"Trispol"
+"Adamèík";"Miroslav";"Cyklokramo Suchdol n. O. 1";20
+"Baier";"Jan";"TJ Kolík Bohumín 1";0
+"Baran";"Petr";"SK Bagbike";0
+"Hinner";"Jiøí";"ACK Stará Ves n. Ondøejnicí";20
+"Hlavatík";"Ladislav";"Racing Olešná";0
+"Holeš";"Jiøí";"CK Hobby Bohumín A ";20
+"Chmura";"Petr";"Team Forman Cinelli";20
+"Knytl";"Vojtìch";"Cyklokramo Suchdol n. O. 1";0
+"Kontúr";"Milan";"SK Valašského království";0
+"Kopøiva";"Miroslav";"CK Continental Frenštát p. R. 2";20
+"Krawczyk";"Andrzej";"Dobre sklepy rowerowe Autor";20
+"Krchòák ";"Pavel";"ACK Stará Ves n. Ondøejnicí";20
+"Lawicki";"Dariusz";"Czernica Masters";0
+"Lepka";"Václav";"YOGI Racing Ostrava 3";20
+"Maleòák";"Richard";;0
+"Musil ";"Oldøich";"alltraining.cz";0
+"Niedermajer";"Václav";"SK Bagbike";0
+"Pastušek ";"Vlastimír";"SK Maxbike Orlová";0
+"Pavlík ";"Petr";"Racing Olešná";0
+"Pekarèík";"Jiøí";"Cyklokramo Suchdol n. O. 2";0
+"Pelc";"Ladislav";"CK Continental Frenštát p. R. 1";20
+"Pilecki";"Stanislav";"CykloservisMB-Airoo";0
+"Praski";"Henryk";"CK Hobby Bohumín A ";0
+"Ruminski";"Stanislaw";"Dobre sklepy rowerowe Autor";0
+"Savka";"Miroslav";"CK Orlík Orlová";0
+"Schneider";"Rudolf";"CK Continental Frenštát p. R. 2";0
+"Toman";"Vladislav";"Cyklokramo Suchdol n. O. 1";0
+"Vyoral";"Lubomír";"CK Hobby Bohumín A ";20
+"Zemánek";"Lubomír";"Cyklokramo Suchdol n. O. 1";20
+"Lawicki";"Dariusz";"Czernica Masters";20
+"Ruminski";"Stanislav";"Dobøe sklepy rowerowe";20
+"Rybicki";"Ludvik Vojtìch";"Zabrze";20
+"Skøeèek";"Robert";"KC Brno";20
+;;;
+"Kategorie E";12;;
+"pøíjmení";"jméno";"klub";"Trispol"
+"Baa ";"Vladimír";"Force KCK Cykloteam Zlín";20
+"Bluszcz";"Stefan";"LowellPro Šafrata team Bohumín";20
+"Danìèek";"Pavel";"CK Loko Krnov";0
+"Dubnı";"Pavel";"Cyklokramo Suchdol n. O. 2";20
+"Glogar";"Jan";"YOGI Racing Ostrava 2";0
+"Homola";"Petr";"LowellPro Šafrata team Bohumín";20
+"Kramoliš";"Radomír";"Cyklokramo Suchdol n. O. 1";0
+"Kubašta";"Zdenìk";"Elektro Kubašta";0
+"Kubík";"Josef";"TJ Kolík Bohumín 2";0
+"Laszczynski";"Ksawery";"CK Hobby Bohumín A ";0
+"Masnı";"Milan";"Racing Olešná";0
+"Mottl";"Bohumír";"TJ Kolík Bohumín 1";20
+"Mrakvia";"Zdenìk";"Skvelakola.cz";20
+"Mrnùštík";"Josef";"Cyklotech-Pro a Mrnùštík";0
+"Oslzla";"Stanislav";"Brušperk";0
+"Pavelek";"František";"CK Continental Frenštát p. R. 2";20
+"Pavlík ";"Jiøí";"Skvelakola.cz";20
+"Rychta ";"Otmar";"Cyklistika pro všechny Krnov";20
+"Siwek";"Stanislaw";"CK Hobby Bohumín B";20
+"Skotnica";"Josef";"SKP Opava";20
+"Tešnar";"Tomáš";"YOGI Racing Ostrava 1";0
+"Trombik";"Emil";"TJ T Tøinec";0
+"Veselı";"Petr";"TJ T Tøinec";0
+"Ftorek";"Peter";"CK ilina";20
+"Goldmann";"Jaromír";"LOKO Krnov";20
+;;;
+"Kategorie A";12;;
+"pøíjmení";"jméno";"klub";"Trispol"
+"Bøeèková";"Lucie";"SK Maxbike Orlová";0
+"Èupová ";"Jana";"Gold´s gym Cyklopoint Brno";0
+"Frajkowská";"Ester";"CK Orlík Orlová";0
+"Gruchalová";"Lucie";"LowellPro Šafrata team Bohumín";20
+"Kotalová";"Veronika";"ACK Stará Ves n. Ondøejnicí";0
+"Kusidlo ";"Katarzyna";"CK Hobby Bohumín A ";20
+"Lantová ";"Romana";"Cyklistika pro všechny Krnov";20
+"Paliderová ";"Alena";"Triatlon klub Ostrava";0
+"Sladkovská";"Petra";"CK Continental Frenštát p. R. 2";20
+"Tomanová";"Lucie";"Cyklokramo Suchdol n. O. 1";0
+"Ublanská ";"Kamila";"CK Orlík Orlová";0
+"Varyšová";"Tereza";"ACK Stará Ves n. Ondøejnicí";0
+"Rezková";"Anteta";"Merida Biking Team";20
+"Siwek";"Daria";"Chomecice";20
+"Škopcová";"Klára";"ACS DRAK VRBNO";20
+;;;
+"Kategorie B";12;;
+"pøíjmení";"jméno";"klub";"Trispol"
+"Danìèková ";"Romana";"Cyklo Mapei Kaòkovskı";0
+"Dohnalová";"Jaroslava";"Cyklistika pro všechny Krnov";20
+"Galetièová";"Anna";"TJ Kolík Bohumín 1";20
+"Halmová";"Eva";"CK Orlík Orlová";0
+"Jaklová";"Ivana";"LowellPro Šafrata team Bohumín";20
+"Lantová";"Romana";"Cyklistika pro všechny Krnov";20
+"Libenková";"Sylva";"TJ Kolík Bohumín 1";0
+"Novotná";"Martina";"CK Continental Frenštát p. R. 1";20
+"Pargaèová";"Marcela";"Cyklokramo Suchdol n. O. 1";20
+"Šèuèková";"Jiøina";"Silnı team Unièov";0
+"Tkocz";"Anna";"Radlin";20
+"Vyèítalová";"Jana";"ACS DRAK VRBNO";20
+;;;
+"Kategorie M";12;;
+"pøíjmení";"jméno";"klub";"Trispol"
+"Heczko";"Filip";"TJ T Tøinec";0
+"Jakl";"Tomáš";"Triatlon klub Ostrava";20
+"Køístek";"Martin";"YOGI Racing Ostrava 1";20
+"Lant";"Antonín";"Cyklistika pro všechny Krnov";20
+"Reichel";"Sebastian";"Cyklistika pro všechny Krnov";20
+"Schichel ";"Jakub";"YOGI Racing Ostrava 3";0
+"Brokeš";"Rostislav";"ACS DRAK VRBNO";20
+"Mrázek";"Lukáš";"CykloMax";20
+"Petruš";"Jiøí";"ACS DRAK VRBNO";20
