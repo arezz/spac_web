@@ -2,17 +2,18 @@
 	<table>
     <tr>
       <td>
-               <!-- BlueBoard.cz Anketa -->
-               <!--<div id="blok-bbsluzba-968962">   -->
-              <!-- <a id="odkaz-bbsluzba-968962" href="http://blueboard.cz">BlueBoard.cz</a>     -->
-             <!-- <script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-968962"></script>  --> 
-              <!-- BlueBoard.cz Anketa KONEC -->  
-              
               <!-- BlueBoard.cz Anketa -->
               <div id="blok-bbsluzba-969800"></div>
               <!-- <a id="odkaz-bbsluzba-969800" href="http://miniaplikace.blueboard.cz">Miniaplikace</a> -->
               <script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-969800"></script>
-              <!-- BlueBoard.cz Anketa KONEC -->     
+              <!-- BlueBoard.cz Anketa KONEC -->
+              
+              <br />
+               <!-- BlueBoard.cz Anketa -->
+               <div id="blok-bbsluzba-968962">  
+              <!-- <a id="odkaz-bbsluzba-968962" href="http://blueboard.cz">BlueBoard.cz</a>     -->
+              <script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-968962"></script> 
+              <!-- BlueBoard.cz Anketa KONEC -->       
       </td>
       <td>
         &nbsp;
