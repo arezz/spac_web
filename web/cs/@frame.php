@@ -51,14 +51,18 @@
             <li><a href="/kronika/kron-2010">2010</a></li>
             <li><a href="/kronika/kron-2009">2009</a></li>
             <li><a href="/kronika/kron-2008">2008</a></li>
-            <li><a href="/kronika/kron-2007">2007</a></li>
-            
+            <li><a href="/kronika/kron-2007">2007</a></li>            
           </ul>
         </li>
        <!-- <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
         <li><a href="" class="archiv"><span>Archív</span></a></li> -->
         <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
-        <li><a href="/uzitecne" class="uzitecne<?php if ($GLOBALS['page']['location'] == "uzitecne") echo ' active'; ?>"><span>Užitečné</span></a></li>
+        <li><a href="/uzitecne" class="uzitecne<?php if ($GLOBALS['page']['location'] == "uzitecne") echo ' active'; ?>"><span>Užitečné</span></a>
+           <ul class="level2">
+                <li><a href="/ankety">Ankety</a></li>
+                <li><a href="/rocnik-2011">Ročník 2011</a></li>
+          </ul>
+        </li>
         <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
         <li><a href="/diskuze" class="diskuze<?php if ($GLOBALS['page']['location'] == "diskuze") echo ' active'; ?>"><span>Diskuze</span></a></li>
       </ul>
