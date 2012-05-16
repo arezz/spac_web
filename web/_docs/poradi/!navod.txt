@@ -1,0 +1,19 @@
+Pocitani tymu:
+
+1. zkopirovat vsechny jednotlivce
+2. vlozit do samostatneho listu
+3. smazat sloupce Klub, C.licence
+4. smazat vsechny sloupce zavodu krom posledniho
+5. smazat prazdne a zlute radky
+6. spocitat na kazdem radku body do druzstev (body x koef)
+7. seradit vse podle (SPAC tym, Real body)
+8. zkopirovat z predchozich listu sumy do druzstev
+9. Nahrat na FTP
+
+
+Nahrani na web:
+
+1. Smazat sloupce Licence, SPAC tym, Koef
+2. Smazat prazdne zavody a vse za nimi
+3. Ulozit jako CSV - oddelovac strednik
+4. Nahrat na web i na FTP
