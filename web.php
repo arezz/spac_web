@@ -9,6 +9,7 @@
 	
 	//Router::addE('kalendar', 'cs', 'kalendar', '#locale#/s/kalendar', true);
 	Router::addE('diskuze', 'cs', 'diskuze', '#locale#/s/diskuze', true);
+                Router::addE('diskuze-puvodni', 'cs', 'diskuze-puvodni', '#locale#/s/diskuze-puvodni', true);
 	Router::addE('o-nas', 'cs', 'o-nas', '#locale#/s/o-nas', true);
 		Router::addE('historie', 'cs', 'historie', '#locale#/s/historie', true);
 		Router::addE('pravidla', 'cs', 'pravidla', '#locale#/s/pravidla', true);
