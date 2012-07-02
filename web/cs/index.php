@@ -2,9 +2,10 @@
 	<table>
     <tr>
       <td>
-            <div id="blok-bbsluzba-973701"></div>
-            <!-- <a id="odkaz-bbsluzba-973701" href="http://miniaplikace.blueboard.cz">Miniaplikace</a>   -->
-            <script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-973701"></script>   
+            
+        <div id="blok-bbsluzba-973927"></div>
+         <!--<a id="odkaz-bbsluzba-973927" href="http://miniaplikace.blueboard.cz">Miniaplikace</a> -->
+        <script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-973927"></script>
 
       </td>
       <td>
