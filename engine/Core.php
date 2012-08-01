@@ -1072,6 +1072,7 @@
 					echo "\n".'		<meta name="robots"                 content="noindex, nofollow" />';
 				else*/
 					echo "\n".'		<meta name="robots"                 content="index, follow" />';
+					echo "\n".'		<meta name="google-site-verification" content="n8ePqZZ_I39jan6qpZf5GDB1iTaBvCZfSwgg1hqWeVo" />';
 				echo "\n".'		<meta name="author"                 content="Poski.com s.r.o." />';
 				echo "\n".'		<meta name="copyright"              content="Poski.com s.r.o." />';
 				echo "\n".'		<meta name="owner"                  content="Poski.com s.r.o." />';
