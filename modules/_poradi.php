@@ -89,12 +89,13 @@
 					}
 					else if ($kategorie && $line[0] && !$data[$kategorie]['sloupce'])
 					{
-						$data[$kategorie]['sloupce'] = array_slice($line, 3);
+						$data[$kategorie]['sloupce'] = array_slice($line, 4);
 					}
 					else if ($kategorie && $line[0])
 					{
 						$temp1 = array();
-						foreach (array_slice($line, 3) as $temp2)
+						$trispol = (int)$line[3];  // trispol muze mit 0 nebo 20 bodu k celkovemu poradi
+						foreach (array_slice($line, 4) as $temp2)
 							$temp1[] = (int) $temp2;
 						$temp0 = array(
 							'prijmeni' => $line[0],
@@ -106,9 +107,9 @@
 						);
 						sort($temp1, SORT_NUMERIC);
 						$temp1 = array_reverse($temp1);
-						$temp0['celkem'] = array_sum($temp1);
+						$temp0['celkem'] = array_sum($temp1) + $trispol;
 						$temp1 = array_slice($temp1, 0, $data[$kategorie]['nej']);
-						$temp0['nej'] = array_sum($temp1);
+						$temp0['nej'] = array_sum($temp1) + $trispol;
 						$data[$kategorie]['seznam'][] = $temp0;
 					}
 					else { } // prazdne radky

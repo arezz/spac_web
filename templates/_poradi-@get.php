@@ -39,7 +39,7 @@
 					<th class="jmeno">Jméno</th>
 					<th class="klub">Klub</th>
 					<th class="celkem">Celkem</th>
-					<th class="nej">' . $kategorie['nej'] . ' nej' . '</th>';
+					<th class="nej">' . $kategorie['nej'] . ' nej + Trispol' . '</th>';
 		foreach ($sloupce as $k => $zavod)
 			echo '<th class="zavod">' . $zavod . '</th>';
 		echo '</tr>';
@@ -63,7 +63,8 @@
 	{
 		$GLOBALS['page']['path'][] = array('text' => __('module-name'), 'url' => false);
 		echo Core::title();
-		echo ' - Kompletní pořadí v <a href="/web/_docs/poradi/poradi.xls">XLS</a>.<br /><br />';
+		echo ' - Kompletní pořadí v <a href="/web/_docs/poradi/poradi.xls">XLS</a>.<br />';
+		echo ' - Do celkového pořadí se počítá 11 nejlepších výsledků plus 20bodů navíc pro ty, kteří se zúčastnili Trispolu.<br /><br />';
 	//	echo ' - Průběžné pořadí časovkářské soutěže po dvou závodech v <a href="/web/_docs/poradi/poradi_casovka.xls">XLS</a>.<br /><br />';
 		echo '<ul>';
 		foreach ($data as $kat => $kategorie)
