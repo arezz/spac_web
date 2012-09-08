@@ -38,8 +38,15 @@
 					<th class="prijmeni">Příjmení</th>
 					<th class="jmeno">Jméno</th>
 					<th class="klub">Klub</th>
-					<th class="celkem">Celkem</th>
-					<th class="nej">' . $kategorie['nej'] . ' nej + Trispol' . '</th>';
+					<th class="celkem">Celkem</th>';
+					if ($kategorie['nej'] == 11) 
+          {
+					   echo '<th class="nej">' . $kategorie['nej'] . ' nej + Trispol' . '</th>';
+					} 
+					else 
+					{
+					   echo '<th class="nej">' . $kategorie['nej'] . ' nej' . '</th>';
+          }
 		foreach ($sloupce as $k => $zavod)
 			echo '<th class="zavod">' . $zavod . '</th>';
 		echo '</tr>';
