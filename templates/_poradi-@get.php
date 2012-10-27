@@ -70,6 +70,7 @@
 	{
 		$GLOBALS['page']['path'][] = array('text' => __('module-name'), 'url' => false);
 		echo Core::title();
+		echo ' - <a href="/web/_docs/2012/vitezove-spac-2012.xls">Vítězové SPAC 2012!</a>.<br /><br />';
 		echo ' - Kompletní pořadí v <a href="/web/_docs/poradi/poradi.xls">XLS</a>.<br />';
 		echo ' - Do celkového pořadí se počítá 11 nejlepších výsledků plus 20bodů navíc pro ty, kteří se zúčastnili Trispolu.<br /><br />';
 	//	echo ' - Průběžné pořadí časovkářské soutěže po dvou závodech v <a href="/web/_docs/poradi/poradi_casovka.xls">XLS</a>.<br /><br />';
