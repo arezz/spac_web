@@ -105,7 +105,7 @@
         
          <div class="partneri">
            <div class="partnerItemPrihlas">
-             <a href="http://igmk.xf.cz/cyklistika/vypis-zavodu.php" onclick="return !window.open(this.href)"><h4>Přihlašování na závody</h4></a>
+             <a href="http://cyklistika.zakaznik.raynet.cz/prihlaseni-zavodnika.php" onclick="return !window.open(this.href)"><h4>Přihlašování na závody</h4></a>
              <span class="clearing"></span>
            </div>  
           
