@@ -119,6 +119,12 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
                       &lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&amp;start=1709" border="0" alt="TOPlist" width="88" height="60" /&gt;</noscript></a>
             <span class="clearing"></span>
            </div>
+           
+           <div class="partnerItem">
+             <a href="http://www.facebook.com/groups/376329552380236/" onclick="return !window.open(this.href)"><img src="/web/_images/fb.png" alt="SPAC na Facebooku" title="SPAC na Facebooku" /></a>
+             <span class="clearing"></span>
+           </div>
+           
            <div class="partnerItem">
              <a href="http://www.maxbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_maxbike1s.gif" alt="" title="" /></a>
              <span class="clearing"></span>
@@ -192,8 +198,10 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
            &copy; Copyright 2011 - <strong>Vedení SPAC  -  Tomáš Celta</strong> - ředitel soutěže<br />
            Tel. (+420) 604 490 681 , E-mail: <a href="mailto: tcraam@post.cz">tcraam@post.cz</a>
          </p>
+         <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.spac-os.cz/"
+        scrolling="no" frameborder="0" style="border:none; width:450px; height:80px"></iframe>
         
-         <a href="http://www.poski.com/" onclick="return !window.open(this.href)">Webdesign Poski.com</a>
+        <a href="http://www.poski.com/" onclick="return !window.open(this.href)">Webdesign Poski.com</a>   
         
          <div class="clearing"></div>
        </div>
