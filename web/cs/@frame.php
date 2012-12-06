@@ -195,8 +195,8 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
       
        <div class="footer">
          <p>
-           &copy; Copyright 2011 - <strong>Vedení SPAC  -  Tomáš Celta</strong> - ředitel soutěže<br />
-           Tel. (+420) 604 490 681 , E-mail: <a href="mailto: tcraam@post.cz">tcraam@post.cz</a>
+           &copy; Copyright 2011 - <strong>Vedení SPAC  -  Pavel Krchňák</strong> - ředitel soutěže<br />
+           Tel. (+420) 776 251 705 , E-mail: <a href="mailto: PavelKrchnak@seznam.cz">PavelKrchnak@seznam.cz</a>
          </p>
          <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.spac-os.cz/"
         scrolling="no" frameborder="0" style="border:none; width:450px; height:80px"></iframe>
