@@ -48,6 +48,8 @@
         <li><a href="/kronika/" class="kronika"><span>Kronika</span></a>
           <ul class="level2">
             <li><a href="/kronika/kron-uvod">Úvod</a></li>
+            <li><a href="/kronika/kron-2012">2012</a></li>
+            <li><a href="/kronika/kron-2011">2011</a></li>
             <li><a href="/kronika/kron-2010">2010</a></li>
             <li><a href="/kronika/kron-2009">2009</a></li>
             <li><a href="/kronika/kron-2008">2008</a></li>
