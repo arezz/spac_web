@@ -34,6 +34,11 @@
 	      </td>
     </tr>
 	</table>
+	<div align="right">
+  <a href="http://www.spac-os.cz/mistrovstvi-cr/archiv-kratkych-novinek-2013-5">Archiv krátkých novinek</a>
+</div> 
+	
+	
 	
 	<!--
   <h2>Alešův koutek</h2>
