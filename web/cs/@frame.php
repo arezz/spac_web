@@ -62,6 +62,7 @@
         <li><a href="/uzitecne" class="uzitecne<?php if ($GLOBALS['page']['location'] == "uzitecne") echo ' active'; ?>"><span>Užitečné</span></a>
            <ul class="level2">
                 <li><a href="/ankety">Ankety</a></li>
+                <li><a href="/rocnik-2012">Ročník 2012</a></li>
                 <li><a href="/rocnik-2011">Ročník 2011</a></li>
                 <li><a href="http://www.spac.ic.cz/historie/historie.htm" target="blank">Starší ročníky</a></li>
           </ul>

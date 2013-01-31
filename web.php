@@ -26,8 +26,9 @@
 		Router::addE('kronika/kron-2012', 'cs', 'kronika/kron-2012', '#locale#/s/kronika_files/kron-2012', true);
 	Router::addE('kontakty', 'cs', 'kontakty', '#locale#/s/kontakty', true);
 	Router::addE('uzitecne', 'cs', 'uzitecne', '#locale#/s/uzitecne', true);
-                Router::addE('ankety', 'cs', 'ankety', '#locale#/s/ankety', true);
-                Router::addE('rocnik-2011', 'cs', 'rocnik-2011', '#locale#/s/rocnik-2011', true);
+    Router::addE('ankety', 'cs', 'ankety', '#locale#/s/ankety', true);
+    Router::addE('rocnik-2011', 'cs', 'rocnik-2011', '#locale#/s/rocnik-2011', true);
+    Router::addE('rocnik-2012', 'cs', 'rocnik-2012', '#locale#/s/rocnik-2012', true);
 	Router::addE('partneri', 'cs', 'partneri', '#locale#/s/partneri', true);
 	Router::process();
 ?>
