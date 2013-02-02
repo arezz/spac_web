@@ -56,25 +56,16 @@
 		</tr>
 	{/foreach}
 </table>
-<!--
+<br>
+Jiné závody najdete na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a><br />
+Také na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a><br />
+Zde naleznete závody <a href="http://www.jesenickysnek.com/index.php/kalenda">Jesenického šneka</a><br />
 <br />
-<h3>Další závody:</h3>
-<br />
-<strong>OPS Karviná:</strong>
-<br />
-21.4.	CK Hobby Bohumín - Časovka<br />
-26.5.	CK Orlík Orlová	- Silnice<br />
-9.6.	CK Feso Petřvald - Okružní<br />
-30.6.	CK Orlík Orlová - Silniční<br />
-3.7.	CK Hobby Bohumín - Silniční<br />
-14.7.	CK  Feso Petřvald - Okružní<br />
-25.8.	TJ Baník Havířov - do vrchu<br />
-<br />
--->
-Další závody na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a>,<br />
-na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a>!<br />
-Předběžný kalendář ČSC <a href="http://mssc.websnadno.cz/kalendar_zavodu_2012_csc.xls">zde ke stažení</a>.<br />
-Zde naleznete závody <a href="http://www.jesenickysnek.com/index.php/kalenda">Jesenického šneka</a>.<br />
+Další závody v roce 2013:<br />
+8.5. st - Orlová  <br />
+25.-26.5. - krajské přebory  <br />
+5.7. pá - Farma tour Hlubočec    <br />
+
 
 {** BLOCK @get **}
 	{a result=$G.invocation->dispatch()}
