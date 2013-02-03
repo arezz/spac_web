@@ -57,8 +57,8 @@
 	{/foreach}
 </table>
 <br>
-Kalendář SPAC na google! <a href="https://www.google.com/calendar/embed?src=oh3am1cgo77le5a5hd7qkate40%40group.calendar.google.com&ctz=Europe/Prague">Google kalendář</a>
-<br>
+Kalendář SPAC na google! <a href="https://www.google.com/calendar/embed?src=oh3am1cgo77le5a5hd7qkate40%40group.calendar.google.com&ctz=Europe/Prague">Google kalendář</a><br>
+A také soubor ICS pro import závodů do libovolného kalendáře - <a href="https://www.google.com/calendar/ical/oh3am1cgo77le5a5hd7qkate40%40group.calendar.google.com/public/basic.ics">iCal</a><br>
 <br>
 Jiné závody najdete na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a><br />
 Také na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a><br />
