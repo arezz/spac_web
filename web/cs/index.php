@@ -4,8 +4,8 @@
       <td>
 
 
-<div id="blok-bbsluzba-979727"></div>
-<script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-979727"></script>
+              <div id="blok-bbsluzba-983758"></div>
+              <script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-983758"></script>
 
         
       </td>
