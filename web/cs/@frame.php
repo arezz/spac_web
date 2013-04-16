@@ -124,42 +124,51 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
            </div>
            
            <div class="partnerItem">
-             <a href="http://www.facebook.com/groups/376329552380236/" onclick="return !window.open(this.href)"><img src="/web/_images/fb.png" alt="SPAC na Facebooku" title="SPAC na Facebooku" /></a>
+             <a href="http://www.okd.cz/cs" onclick="return !window.open(this.href)"><img src="/web/_images/logo_okd.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
-           
            <div class="partnerItem">
              <a href="http://www.maxbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_maxbike1s.gif" alt="" title="" /></a>
              <span class="clearing"></span>
-           </div>  
-      
+           </div>
+
+            <div class="partnerItem">
+             <a href="http://www.paul-lange.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_shimano.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
             <div class="partnerItem">
              <a href="http://www.lawi.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_08_Lawi.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
-           <div class="partnerItem">
-             <a href="http://www.klusport.com/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_07_Klusport_Aminostar2_s.gif" alt="" title="" /></a>
-             <span class="clearing"></span>
-           </div>
+
            <div class="partnerItem">
              <a href="http://www.pohary-bauer.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_11_Bauer.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
            <div class="partnerItem">
-             <a href="http://www.rozhlas.cz/ostrava/portal/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_02_cesky_rozhlas.gif" alt="" title="" /></a>
+             <a href="http://www.facebook.com/groups/376329552380236/" onclick="return !window.open(this.href)"><img src="/web/_images/fb.png" alt="SPAC na Facebooku" title="SPAC na Facebooku" /></a>
              <span class="clearing"></span>
-           </div>
+           </div>          
+          
            
 <?php if ($GLOBALS['page']['location'] == "_poradi/get")  
 {       
  echo '-->';
 }
 ?>
+
+          <!-- <div class="partnerItem">
+             <a href="http://www.rozhlas.cz/ostrava/portal/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_02_cesky_rozhlas.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>   -->
             <!--<div class="partnerItem">
              <a href="http://www.sabe.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_09_Sabe.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>-->
-           
+           <!--<div class="partnerItem">
+             <a href="http://www.klusport.com/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_07_Klusport_Aminostar2_s.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>    -->
             <!--<div class="partnerItem">
              <a href="http://www.kolik.org/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_03_kolik.gif" alt="" title="" /></a>
              <span class="clearing"></span>
