@@ -61,6 +61,7 @@
         <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
         <li><a href="/uzitecne" class="uzitecne<?php if ($GLOBALS['page']['location'] == "uzitecne") echo ' active'; ?>"><span>Užitečné</span></a>
            <ul class="level2">
+                <li><a href="/uzitecne">Dokumenty</a></li>
                 <li><a href="/ankety">Ankety</a></li>
                 <li><a href="/rocnik-2012">Ročník 2012</a></li>
                 <li><a href="/rocnik-2011">Ročník 2011</a></li>
@@ -70,6 +71,7 @@
         <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
         <li><a href="/diskuze" class="diskuze<?php if ($GLOBALS['page']['location'] == "diskuze") echo ' active'; ?>"><span>Diskuze</span></a>
             <ul class="level2">
+                <li><a href="/diskuze">Oficiální</a></li>
                 <li><a href="/diskuze-puvodni">Necenzurovaná</a></li>                
             </ul>
         </li>
