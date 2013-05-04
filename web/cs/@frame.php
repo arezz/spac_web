@@ -31,7 +31,7 @@
             <li><a href="/pravidla">Pravidla</a></li>
             <li><a href="/soutezni-rad">Soutěžní řád</a></li>
             <li><a href="/stanovy">Stanovy</a></li>
-            <li><a href="/soupiska-tymu">Soupiska týmů</a></li>
+            <li><a href="/partneri">Sponzoři</a></li>
           </ul>
         </li>
         <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
