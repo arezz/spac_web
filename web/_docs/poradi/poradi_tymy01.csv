@@ -1,4 +1,4 @@
-"Kategorie A";14;;1
+"Kategorie A";14;;
 "pøíjmení";"jméno";"klub";"Trispol"
 "Bubeník";"Jiøí";"M3B racing team";0
 "Cáb";"Martin";"Cyklokramo Suchdol nad Odrou ""A""";0
@@ -35,7 +35,7 @@
 "Záruba";"Petr";"ACK Stará Ves nad Ondøejnicí";0
 "Záruba";"Pavel";"ACK Stará Ves nad Ondøejnicí";0
 ;;;
-"Kategorie B";14;;1
+"Kategorie B";14;;
 "pøíjmení";"jméno";"klub";"Trispol"
 "Adámek";"Lukáš";;50
 "Androsz";"Michal";"Rybnik";40
@@ -88,7 +88,7 @@
 "Toman";"Petr";"Team Forman Cinelli";0
 "Uvíra";"Václav";"CK Orlík Orlová";0
 ;;;
-"Kategorie C";14;;1
+"Kategorie C";14;;
 "pøíjmení";"jméno";"klub";"Trispol"
 "Adámek";"František";"Zhor Team";37
 "Beneš";"Petr";"YOGI Racing Ostrava 1";0
@@ -127,7 +127,7 @@
 "Wenzel";"Roman";"MaxCursor";0
 "Wilhelm";"Jaroslav";"Kolík& Hobby ""B""";40
 ;;;
-"Kategorie D";14;;1
+"Kategorie D";14;;
 "pøíjmení";"jméno";"klub";"Trispol"
 "Adamèík";"Miroslav";"Cyklokramo Suchdol nad Odrou ""A""";44
 "Baier";"Jan";"Kolík& Hobby ""B""";0
@@ -171,7 +171,7 @@
 "Zemánek";"Lubomír";"Cyklokramo Suchdol nad Odrou ""A""";39
 "Zvoníèek";"Radomír";"FORCE KCK CYKLOTEAM ZLÍN";48
 ;;;
-"Kategorie E";14;;1
+"Kategorie E";14;;
 "pøíjmení";"jméno";"klub";"Trispol"
 "Bluszcz";"Stefan";"Lowell Pro Šafrata Team Bohumín";42
 "Danìèek";"Pavel";"Loko Krnov";60
@@ -197,7 +197,7 @@
 "Toman";"Vladislav";"Cyklokramo Suchdol nad Odrou ""A""";0
 "Veselý";"Petr";"TJ TŽ Tøinec";38
 ;;;
-"Kategorie ŽA";14;;1
+"Kategorie ŽA";14;;
 "pøíjmení";"jméno";"klub";"Trispol"
 "Frantová";"Kateøina";"Racing Olešná ""B""";0
 "Gruchalová";"Lucie";"Lowell Pro Šafrata Team Bohumín";60
@@ -215,7 +215,7 @@
 "Tomanová";"Lucie";"Cyklokramo Suchdol nad Odrou ""A""";0
 "Ublanská ";"Kamila";"CK Orlík Orlová";0
 ;;;
-"Kategorie ŽB";14;;1
+"Kategorie ŽB";14;;
 "pøíjmení";"jméno";"klub";"Trispol"
 "Bilková";"Jarmila";"TŽ Tøinec";44
 "Danìèková";"Romana";"MAPEI Cyclo Kaòkovský";55
@@ -228,7 +228,7 @@
 "Procházková";"Hana";"CK Orlík Orlová";0
 "Vyèítalová ";"Jana";"ACS Drak Vrbno";60
 ;;;
-"Kategorie M";14;;1
+"Kategorie M";14;;
 "pøíjmení";"jméno";"klub";"Trispol"
 "Fierla";"Jan";"CK Feso Petøvald";46
 "Fišer";"Aleš";"CK Orlík Orlová";0
@@ -245,7 +245,7 @@
 "Prejda";"Václav";"SK Jiøí Team Ostrava";55
 "Wala";"Jan";"CK Feso Petøvald";48
 ;;;
-"Družstva";21;;1
+"Družstva";21;;
 "pøíjmení";"jméno";"klub";"Trispol"
 "A Bike Club Ostrava";;;0
 "ACK Stará Ves nad Ondøejnicí";;;68,2

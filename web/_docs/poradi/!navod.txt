@@ -15,5 +15,6 @@ Nahrani na web:
 
 1. Smazat sloupce Licence, SPAC tym, Koef
 2. Smazat prazdne zavody a vse za nimi
-3. Ulozit jako CSV - oddelovac strednik
-4. Nahrat na web i na FTP
+3. Smazat cisla zavodu (nad nazvem)
+4. Ulozit jako CSV - oddelovac strednik
+5. Nahrat na web i na FTP
