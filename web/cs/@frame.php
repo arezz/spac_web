@@ -31,7 +31,7 @@
             <li><a href="/pravidla">Pravidla</a></li>
             <li><a href="/soutezni-rad">Soutěžní řád</a></li>
             <li><a href="/stanovy">Stanovy</a></li>
-            <li><a href="/soupiska-tymu">Soupiska týmů</a></li>
+            <li><a href="/partneri">Sponzoři</a></li>
           </ul>
         </li>
         <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
@@ -130,7 +130,7 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <span class="clearing"></span>
            </div>
            <div class="partnerItem">
-             <a href="http://www.maxbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_maxbike1s.gif" alt="" title="" /></a>
+             <a href="http://www.maxbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_maxbike.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
 
@@ -140,6 +140,14 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
            </div>
             <div class="partnerItem">
              <a href="http://www.lawi.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_08_Lawi.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+            <div class="partnerItem">
+             <a href="http://www.bikekram.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_bk.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+            <div class="partnerItem">
+             <a href="http://www.idnes.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_dnes.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
 
