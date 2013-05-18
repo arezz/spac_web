@@ -1,10 +1,10 @@
 Pocitani tymu:
 
-1. zkopirovat vsechny jednotlivce
+1. zkopirovat vsechny jednotlivce, ne druzstva
 2. vlozit do samostatneho listu
 3. smazat sloupce Klub, C.licence
 4. smazat vsechny sloupce zavodu krom posledniho
-5. smazat prazdne a zlute radky
+5. smazat prazdne a zlute radky, pripadne druzstva
 6. spocitat na kazdem radku body do druzstev (body x koef)
 7. seradit vse podle (SPAC tym, Real body)
 8. zkopirovat z predchozich listu sumy do druzstev
