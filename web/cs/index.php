@@ -2,12 +2,12 @@
 	<table>
     <tr>
       <td>
-
+                                  
 <div id="blok-bbsluzba-988082"></div>
 <script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-988082"></script>
 
 
-        
+                   
       </td>
       <td>
         &nbsp;
