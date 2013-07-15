@@ -301,7 +301,7 @@
 "Hlavatík";"Ladislav";"Racing Olešná ""A""";35;49;32;24;0;0;0;0;"DNF";0
 "Holeš";"Jiøí";"Kolík& Hobby ""B""";30;39;26;0;20;"DNF";33;25;31;34
 "Huba";"Czes³aw";"Cieszyn";0;0;0;0;0;0;0;34;0;0
-"Chmura";"Petr";"Team Forman Cinelli";0;42;25;37;37;29;37;35;42;40
+"Chmura";"Petr";"Team Forman Cinelli";0;42;25;37;37;29;37;35;42;39
 "Jakl";"Jiøí";"Triatlon klub Ostrava";0;37;20;0;0;0;0;0;34;0
 "Javora";"Stanislav";"Hvozdná";0;0;0;0;0;0;38;0;0;0
 "Kapala";"Zygmunt";"KTS Tychy";0;0;0;0;0;"DNF";0;0;0;0
@@ -313,9 +313,9 @@
 "Kopøiva";"Miroslav";"CK Continental Frenštát p. R. ""B""";29;47;24;"DNF";27;22;29;31;0;31
 "Kotas";"Pavel";"Frenštát";0;0;0;25;0;"DNF";0;0;0;32
 "Krawczyk";"Andrzej";;32;0;30;23;30;32;0;0;36;0
-"Krchòák";"Pavel";"ACK Stará Ves nad Ondøejnicí";33;46;0;34;31;0;35;36;41;42
+"Krchòák";"Pavel";"ACK Stará Ves nad Ondøejnicí";33;46;0;34;31;0;35;36;41;40
 "Krzyžanowski";"Zbigniew";;0;0;0;0;0;37;0;0;0;0
-"Lawicki";"Dariusz";"CZERNICA MASTERS";36;48;35;39;36;33;0;0;37;38
+"Lawicki";"Dariusz";"CZERNICA MASTERS";36;48;35;39;36;33;0;0;37;42
 "Legerský";"Jiøí";"TJ TŽ Tøinec";0;35;0;27;0;0;27;26;0;0
 "Lepka";"Václav";"YOGI Racing Ostrava 2";26;41;18;26;0;18;0;0;30;0
 "Lukeš";"Stanislav";"Cyklo Racing Olomouc";37;0;0;0;0;0;0;0;0;0
@@ -353,7 +353,7 @@
 "Wiœniewski";"Jerzy";;"DNF";0;0;0;0;0;0;0;0;0
 "Zdanowicz";"Marek";"Merida Gliwice";0;0;0;32;26;24;0;0;0;0
 "Zemánek";"Lubomír";"Cyklokramo Suchdol nad Odrou ""A""";39;0;0;0;46;39;40;38;50;44
-"Zvoníèek";"Radomír";"FORCE KCK CYKLOTEAM ZLÍN";48;0;55;50;55;46;39;37;52;39
+"Zvoníèek";"Radomír";"FORCE KCK CYKLOTEAM ZLÍN";48;0;55;50;55;46;39;37;52;38
 ;;;;;;;;;;;;
 "Kategorie E";14;;;;;;;;;;;
 "pøíjmení";"jméno";"klub";"Trispol";"èas. AM";"Krnov";"M.J.F.";"TdS";"VP";"C.C.";"TdJ";"M.A.D.";"St.Ves"
@@ -462,9 +462,8 @@
 "Kreveta";"Jakub";"Cyklo Mapei Kaòkovský";0;0;0;48;0;0;0;0;0;0
 "Krhut";"Jan";"Triatlon klub Ostrava";0;65;0;0;0;0;0;0;0;0
 "Køístek";"Martin";"YOGI Racing Ostrava 2";0;47;0;0;0;0;0;0;0;0
-"Kubièík";"Filip";"Cyklistika pro všechny Krnov";0;0;0;0;0;0;0;0;65;37
+"Kubièík";"Filip";"Cyklistika pro všechny Krnov";44;0;35;44;55;46;0;55;65;37
 "Mrázek";"Lukáš";"Atom Bike Trek For Bikes";42;0;0;0;0;0;0;0;0;0
-"Kubièík";"Filip";"Cyklistika pro všechny Krnov";44;0;35;44;55;46;0;55;0;0
 "LOVEÈEK";"Adam";"Mapei Cyklo Kaòkovský";0;0;34;0;0;0;0;0;0;0
 "NERUŠIL";"Jan";"TJ Unièov";0;0;30;0;0;0;0;0;0;0
 "Palièka";"Hynek ";"ACK Stará ves n.O";0;0;0;0;0;"DNF";0;0;0;0
@@ -490,13 +489,13 @@
 "Družstva";21;;;;;;;;;;;
 "pøíjmení";"jméno";"klub";"Trispol";"èas. AM";"Krnov";"M.J.F.";"TdS";"VP";"C.C.";"TdJ";"M.A.D.";"St.Ves"
 "A Bike Club Ostrava";;;0;74;67;108,6;109;78,0;107;121;74;101
-"ACK Stará Ves nad Ondøejnicí";;;68,2;183;115,2;130;126,8;90,0;109,4;105;132,6;128
+"ACK Stará Ves nad Ondøejnicí";;;68,2;183;115,2;130;126,8;90,0;109,4;105;132,6;126
 "ACS DRAK VRBNO";;;74;0;94,2;0;66,6;40,0;0;0;127,6;0
 "CK Continental Frenštát p. R. ""A""";;;144;200;129;143;147;130,0;132;130;164;161
 "CK Continental Frenštát p. R. ""B""";;;66;99;67;73,8;80,4;69,6;96,2;84;34,4;108
 "CK Feso Petøvald";;;132,4;136,8;132,8;105,6;48;122,2;89;132,4;158,8;121,2
 "CK Orlík Orlová";;;0;139,6;45,8;114;91,6;100,2;110,2;101,4;140;29,6
-"Cyklistika pro všechny Krnov";;;114,8;139,2;104;126,4;122,4;112,0;120;126,4;127,2;68,8
+"Cyklistika pro všechny Krnov";;;114,8;139,2;104;126,4;122,4;112,0;120;126,4;143,2;98,4
 "Cyklokramo Suchdol nad Odrou ""A""";;;121,4;154,8;125;114,4;121;138,0;135;126;168;142
 "Cyklokramo Suchdol nad Odrou ""B""";;;29,6;124;88,4;30,4;59,2;59,2;82,4;60;105,6;28,8
 "Cyklotech-Pro a Mrnùštík";;;0;36;0;0;25,6;24,8;25,6;0;32,8;28
@@ -510,7 +509,7 @@
 "Racing Olešná ""B""";;;0;80;0;0;0;0,0;0;33;39;0
 "SK Valašského království";;;63;92;36;0;68;23,0;78;80;82;83
 "skvelakola.cz";;;105,2;137;100,4;107;105;99,0;111,4;123;132,4;127
-"Team Forman Cinelli";;;44;141,6;84,6;95;73,8;108,2;75,4;70,2;136,4;119,2
+"Team Forman Cinelli";;;44;141,6;84,6;95;73,8;108,2;75,4;70,2;136,4;118,2
 "TJ TŽ Tøinec";;;30,4;152,4;109,8;71;128;76,8;140;150;94,4;64
 "Triatlon klub Ostrava";;;70;143;76;66;28;18,0;70;77;66;0
 "YOGI Racing Ostrava 1";;;118;160,8;115,4;148,6;136,4;110,6;110,4;141,6;153;122,2
