@@ -3,8 +3,8 @@
     <tr>
       <td>
                                   
-<div id="blok-bbsluzba-988996"></div>
-<script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-988996"></script>
+<div id="blok-bbsluzba-991838"></div>
+<script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-991838"></script>
 
                    
       </td>
