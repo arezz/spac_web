@@ -57,17 +57,16 @@
 	{/foreach}
 </table>
 <br>
-Kalendář SPAC na google! <a href="https://www.google.com/calendar/embed?src=oh3am1cgo77le5a5hd7qkate40%40group.calendar.google.com&ctz=Europe/Prague">Google kalendář</a><br>
-A také soubor ICS pro import závodů do libovolného kalendáře - <a href="https://www.google.com/calendar/ical/oh3am1cgo77le5a5hd7qkate40%40group.calendar.google.com/public/basic.ics">iCal</a><br>
 <br>
 Jiné závody najdete na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a><br />
 Také na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a><br />
 Zde naleznete závody <a href="http://www.jesenickysnek.com/index.php/kalenda">Jesenického šneka</a><br />
 <br />
-Další závody v roce 2013:<br />
-8.5. st - Orlová  <br />
-25.-26.5. - krajské přebory  <br />
-5.7. pá - Farma tour Hlubočec    <br />
+Další závody v roce 2014:<br />
+24-25.5. krajské přebory, <br />
+8.5. Orlová,<br />
+16-17.8. 24hod. Lichnov,  <br />
+27.9. do vrchu Pusteven  <br />
 
 
 {** BLOCK @get **}
