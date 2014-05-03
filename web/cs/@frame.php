@@ -159,10 +159,6 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <span class="clearing"></span>
            </div>
            <div class="partnerItem">
-             <a href="https://cs-cz.facebook.com/SdruzeniAmaterskychCyklistuCR" onclick="return !window.open(this.href)"><img src="/web/_images/logo_SAC_CR_Facebook.gif" alt="" title="" /></a>
-             <span class="clearing"></span>
-           </div>
-           <div class="partnerItem">
              <a href="http://www.facebook.com/groups/376329552380236/" onclick="return !window.open(this.href)"><img src="/web/_images/fb.png" alt="SPAC na Facebooku" title="SPAC na Facebooku" /></a>
              <span class="clearing"></span>
            </div>          
