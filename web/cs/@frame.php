@@ -126,16 +126,14 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
                       &lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&amp;start=1709" border="0" alt="TOPlist" width="88" height="60" /&gt;</noscript></a>
             <span class="clearing"></span>
            </div>
-           
            <div class="partnerItem">
-             <a href="http://www.okd.cz/cs" onclick="return !window.open(this.href)"><img src="/web/_images/logo_okd.gif" alt="" title="" /></a>
+             <a href="http://www.roadmaraton.pl/2014/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_DSR_road_maraton.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
            <div class="partnerItem">
              <a href="http://www.maxbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_maxbike.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
-
             <div class="partnerItem">
              <a href="http://www.paul-lange.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_shimano.gif" alt="" title="" /></a>
              <span class="clearing"></span>
@@ -144,17 +142,24 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <a href="http://www.lawi.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_08_Lawi.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
-            <div class="partnerItem">
-             <a href="http://www.bikekram.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_bk.gif" alt="" title="" /></a>
+           <div class="partnerItem">
+             <a href="http://www.pohary-bauer.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_11_Bauer.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
-            <div class="partnerItem">
+           <div class="partnerItem">
+             <a href="http://http://www.repronis.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_01_repronis.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+           <div class="partnerItem">
              <a href="http://www.idnes.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_dnes.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
-
            <div class="partnerItem">
-             <a href="http://www.pohary-bauer.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_11_Bauer.gif" alt="" title="" /></a>
+             <a href="http://www.saccr.cz/novinky/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_SAC_CR_web.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+           <div class="partnerItem">
+             <a href="https://cs-cz.facebook.com/SdruzeniAmaterskychCyklistuCR" onclick="return !window.open(this.href)"><img src="/web/_images/logo_SAC_CR_Facebook.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
            <div class="partnerItem">
