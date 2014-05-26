@@ -71,7 +71,7 @@
           </ul>
         </li>
         <li><img src="/web/_images/menuSeparator.gif" alt="" /></li>
-        <li><a href="/diskuze" class="diskuze<?php if ($GLOBALS['page']['location'] == "diskuze") echo ' active'; ?>"><span>Diskuze</span></a>
+        <li><a href="/diskuze-puvodni" class="diskuze<?php if ($GLOBALS['page']['location'] == "diskuze") echo ' active'; ?>"><span>Diskuze</span></a>
             <ul class="level2">
                 <li><a href="/diskuze">Oficiální</a></li>
                 <li><a href="/diskuze-puvodni">Necenzurovaná</a></li>                
