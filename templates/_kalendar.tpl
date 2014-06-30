@@ -58,6 +58,7 @@
 </table>
 <br>
 <br>
+Rozjíždí se také <a href="http://lasskaliga.cz/">Lašská cyklistická liga.</a><br />
 Jiné závody najdete na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a><br />
 Také na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a><br />
 Zde naleznete závody <a href="http://www.jesenickysnek.com/index.php/kalenda">Jesenického šneka</a><br />
