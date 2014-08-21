@@ -67,7 +67,7 @@ Další závody v roce 2014:<br />
 24-25.5. krajské přebory, <br />
 8.5. Orlová,<br />
 16-17.8. 24hod. Lichnov,  <br />
-27.9. do vrchu Pusteven  <br />
+28.9. do vrchu Pusteven  <br />
 
 
 {** BLOCK @get **}
