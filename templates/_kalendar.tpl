@@ -65,7 +65,7 @@ Zde naleznete závody <a href="http://www.jesenickysnek.com/index.php/kalenda">J
 <br />
 Další závody v roce 2014:<br />
 24-25.5. krajské přebory, <br />
-8.5. Orlová,<br />
+9.5. Orlová,<br />
 16-17.8. 24hod. Lichnov,  <br />
 28.9. do vrchu Pusteven  <br />
 
