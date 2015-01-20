@@ -25,6 +25,10 @@
 		{$object->text}
 	</div>
 {** BLOCK list **}
+  <center>
+  <img src="/web/_images/publicita_logo.jpg" alt="Kola přes hranice!" title="Kola přes hranice!" />
+  <h3>Sezona 2014 byla spolufinancována z projektu Kola přes hranice!</h3>
+  </center>       
 	{a url='get-url'|l:$this->group}{a url=#lpath#|cat:$url}
 	<table>
 		<tr>

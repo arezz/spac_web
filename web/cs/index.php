@@ -1,4 +1,9 @@
 <div class="homeObsah">
+<center>
+  <h3>Sezona 2014 byla spolufinancována z projektu Kola přes hranice!</h3>
+  <img src="/web/_images/publicita_logo.jpg" alt="Kola přes hranice!" title="Kola přes hranice!" />
+</center> 
+  
 	<table>
     <tr>
       <td>
