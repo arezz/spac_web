@@ -38,7 +38,7 @@
     </tr>
 	</table>
 	<div align="right">
-  <a href="http://www.spac-os.cz/mistrovstvi-cr/archiv-kratkych-novinek-2014-10">Archiv krátkých novinek</a>
+  <a href="http://www.spac-os.cz/mistrovstvi-cr/archiv-kratkych-novinek-2015-11">Archiv krátkých novinek</a>
 </div> 
 	
 	
