@@ -1,4 +1,9 @@
 <div class="homeObsah">
+<center>
+  <h3>Sezona 2014 byla spolufinancována z projektu Kola přes hranice!</h3>
+  <img src="/web/_images/publicita_logo.jpg" alt="Kola přes hranice!" title="Kola přes hranice!" />
+</center> 
+  
 	<table>
     <tr>
       <td>
@@ -33,7 +38,7 @@
     </tr>
 	</table>
 	<div align="right">
-  <a href="http://www.spac-os.cz/mistrovstvi-cr/archiv-kratkych-novinek-2014-10">Archiv krátkých novinek</a>
+  <a href="http://www.spac-os.cz/mistrovstvi-cr/archiv-kratkych-novinek-2015-11">Archiv krátkých novinek</a>
 </div> 
 	
 	
