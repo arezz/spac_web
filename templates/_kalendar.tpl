@@ -61,6 +61,7 @@
 	{/foreach}
 </table>
 <br>
+Kalendář SPAC a silničních závodů na google! <a href="https://www.google.com/calendar/embed?src=oh3am1cgo77le5a5hd7qkate40%40group.calendar.google.com&ctz=Europe/Prague">Google kalendář</a><br>
 <br>
 Rozjíždí se také <a href="http://lasskaliga.cz/">Lašská cyklistická liga.</a><br />
 Jiné závody najdete na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a><br />
