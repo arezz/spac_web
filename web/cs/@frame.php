@@ -132,6 +132,14 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <a href="http://www.roadmaraton.pl/2014/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_DSR_road_maraton.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
+            <div class="partnerItem">
+             <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_black.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
+            <div class="partnerItem">
+             <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_gray.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
            <div class="partnerItem">
              <a href="http://www.maxbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_maxbike.gif" alt="" title="" /></a>
              <span class="clearing"></span>
@@ -157,10 +165,6 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <span class="clearing"></span>
            </div>
            <div class="partnerItem">
-             <a href="http://www.saccr.cz/novinky/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_SAC_CR_web.gif" alt="" title="" /></a>
-             <span class="clearing"></span>
-           </div>
-           <div class="partnerItem">
              <a href="http://www.facebook.com/groups/376329552380236/" onclick="return !window.open(this.href)"><img src="/web/_images/fb.png" alt="SPAC na Facebooku" title="SPAC na Facebooku" /></a>
              <span class="clearing"></span>
            </div>          
@@ -171,7 +175,10 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
  echo '-->';
 }
 ?>
-
+          <!--  <div class="partnerItem">
+             <a href="http://www.saccr.cz/novinky/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_SAC_CR_web.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div> -->
           <!-- <div class="partnerItem">
              <a href="http://www.rozhlas.cz/ostrava/portal/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_02_cesky_rozhlas.gif" alt="" title="" /></a>
              <span class="clearing"></span>
