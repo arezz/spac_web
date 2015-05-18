@@ -30,7 +30,7 @@ RewriteRule ^third-party/.*\.php							/index.php	[L,QSA,E=page.location:300]
 </Files>
 
 RewriteCond %{REQUEST_URI}									/web/.*$
-RewriteCond %{REQUEST_FILENAME}								/.+\.(swf|flv|avi|txt|htm|html|htc|css|js|png|jpg|gif|pdf|doc|xls|odt|ico|rar|zip)$
+RewriteCond %{REQUEST_FILENAME}								/.+\.(swf|flv|avi|txt|htm|html|htc|css|js|png|jpg|gif|pdf|doc|docx|xls|xlsx|odt|ico|rar|zip)$
 RewriteRule .*												-	[L]
 RewriteCond %{REQUEST_URI}									/web/fotogalerie/
 RewriteRule .*												-	[L]
