@@ -8,8 +8,8 @@
     <tr>
       <td>
 
-<div id="blok-bbsluzba-1003528"></div>
-<script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-1003528"></script>
+<div id="blok-bbsluzba-1004147"></div>
+<script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-1004147"></script>
 
       </td>
       <td>
