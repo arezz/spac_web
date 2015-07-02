@@ -72,7 +72,7 @@
 		echo Core::title();
 	//	echo ' - <a href="/web/_docs/2012/vitezove-spac-2012.xls">Vítězové SPAC 2012!</a>.<br /><br />';
 		echo ' - Kompletní pořadí v <a href="/web/_docs/poradi/poradi.xls">XLS</a>.<br />';
-		echo ' - Pořadí žákovských kategorií <a href="/web/_docs/poradi/SPAC_ZACI.xls">BABY SPAC</a> v XLS.<br />';
+		echo ' - Pořadí žákovských kategorií <a href="/web/_docs/poradi/SPAC_ZACI.xls">SPAC ŽÁCI</a> v XLS.<br />';
 		echo '<br />';
 	//	echo ' - Průběžné pořadí časovkářské soutěže po dvou závodech v <a href="/web/_docs/poradi/poradi_casovka.xls">XLS</a>.<br /><br />';
 		echo '<ul>';
