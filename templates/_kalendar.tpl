@@ -72,7 +72,7 @@ Další závody v roce:<br />
 9.5. Orlová,<br />
 22-23.8. 24hod. Lichnov,  <br />
 27.9. do vrchu Pusteven  <br />
-3.10. Okolo Hukvald  <br />
+4.10. Okolo Hukvald  <br />
 
 
 {** BLOCK @get **}
