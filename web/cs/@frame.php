@@ -133,10 +133,6 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <span class="clearing"></span>
            </div>
             <div class="partnerItem">
-             <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_black.gif" alt="" title="" /></a>
-             <span class="clearing"></span>
-           </div>
-            <div class="partnerItem">
              <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_gray.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
