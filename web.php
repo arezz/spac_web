@@ -33,6 +33,7 @@
     Router::addE('rocnik-2012', 'cs', 'rocnik-2012', '#locale#/s/rocnik-2012', true);
     Router::addE('rocnik-2013', 'cs', 'rocnik-2013', '#locale#/s/rocnik-2013', true);
 	Router::addE('rocnik-2014', 'cs', 'rocnik-2014', '#locale#/s/rocnik-2014', true);
+	Router::addE('rocnik-2015', 'cs', 'rocnik-2015', '#locale#/s/rocnik-2015', true);
 	Router::addE('partneri', 'cs', 'partneri', '#locale#/s/partneri', true);
 	Router::process();
 ?>
