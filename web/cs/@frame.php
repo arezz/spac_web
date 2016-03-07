@@ -48,6 +48,7 @@
         <li><a href="/kronika/" class="kronika"><span>Kronika</span></a>
           <ul class="level2">
             <li><a href="/kronika/kron-uvod">Úvod</a></li>
+			<li><a href="/kronika/kron-2015">2015</a></li>
             <li><a href="/kronika/kron-2014">2014</a></li>
             <li><a href="/kronika/kron-2013">2013</a></li>
             <li><a href="/kronika/kron-2012">2012</a></li>
@@ -115,7 +116,8 @@
         
          <div class="partneri">
            <div class="partnerItemPrihlas">
-             <a href="http://cyklistika.martinstriz.cz/prihlaseni-zavodnika.php" onclick="return !window.open(this.href)"><h4>Přihlašování na závody</h4></a>
+             <!-- <a href="http://cyklistika.martinstriz.cz/prihlaseni-zavodnika.php" onclick="return !window.open(this.href)"><h4>Přihlašování na závody</h4></a> -->
+			 <a href="http://www.atletikauni.cz/cz/s1516/Kalendar-akci/c2129-Seznam-akci" onclick="return !window.open(this.href)"><h4>Přihlašování na závody</h4></a>
              <span class="clearing"></span>
            </div>  
           
@@ -141,11 +143,7 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <a href="http://www.maxbike.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_maxbike.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
-            <div class="partnerItem">
-             <a href="http://www.paul-lange.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_shimano.gif" alt="" title="" /></a>
-             <span class="clearing"></span>
-           </div>
-            <div class="partnerItem">
+           <div class="partnerItem">
              <a href="http://www.lawi.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_08_Lawi.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
