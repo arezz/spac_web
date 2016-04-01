@@ -68,10 +68,10 @@ Jiné závody najdete na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC<
 Také na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a><br />
 Zde naleznete závody <a href="http://www.jesenickysnek.com/index.php/kalenda">Jesenického šneka</a><br />
 <br />
-Další závody v roce:<br />
+Další závody:<br />
 9.5. Orlová,<br />
 22-23.8. 24hod. Lichnov,  <br />
-27.9. do vrchu Pusteven  <br />
+25.9. do vrchu Pusteven  <br />
 4.10. Okolo Hukvald  <br />
 
 
