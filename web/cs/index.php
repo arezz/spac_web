@@ -7,11 +7,11 @@
 	<table>
     <tr>
       <td>
-
-<div id="blok-bbsluzba-1005059"></div>
-<script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-1005059"></script>
-
-      </td>
+	  
+<div id="blok-bbsluzba-1007721"></div>
+<script type="text/javascript" src="http://miniaplikace.blueboard.cz/widget-anketa-1007721"></script>
+      
+	  </td>
       <td>
         &nbsp;
       </td>
