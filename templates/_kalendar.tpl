@@ -53,8 +53,8 @@
 		    	{if ($object->propozice)}
 		    		<a href="/data/blob-rename/{$object->propozice}/{$object->nazev|urlize}-propozice.{$object->propozice|regex_replace:'~.*\.([a-zA-Z]+)$~':'\1'}">propozice</a>
 		    	{/if}
-		    	{if (($object->datum > time()) && ($object->datum < (time()+3600*24*14)))}
-		    		<a href="http://cyklistika.martinstriz.cz/prihlaseni-zavodnika.php">přihlášení</a>
+		    	{if (($object->datum > time()) && ($object->datum < (time()+3600*24*15)))}
+		    		<a href="http://www.atletikauni.cz/cz/s1516/Kalendar-akci/c2129-Seznam-akci">přihlášení</a>
 		    	{/if}
 		    </td>
 		</tr>
@@ -70,9 +70,9 @@ Zde naleznete závody <a href="http://www.jesenickysnek.com/index.php/kalenda">J
 <br />
 Další závody:<br />
 9.5. Orlová,<br />
-22-23.8. 24hod. Lichnov,  <br />
-25.9. do vrchu Pusteven  <br />
-4.10. Okolo Hukvald  <br />
+13-14.8. 24hod. Lichnov<br />
+25.9. do vrchu Pusteven<br />
+4.10. Okolo Hukvald<br />
 
 
 {** BLOCK @get **}
