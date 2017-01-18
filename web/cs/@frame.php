@@ -48,6 +48,7 @@
         <li><a href="/kronika/" class="kronika"><span>Kronika</span></a>
           <ul class="level2">
             <li><a href="/kronika/kron-uvod">Úvod</a></li>
+			<li><a href="/kronika/kron-2016">2016</a></li>
 			<li><a href="/kronika/kron-2015">2015</a></li>
             <li><a href="/kronika/kron-2014">2014</a></li>
             <li><a href="/kronika/kron-2013">2013</a></li>
@@ -66,6 +67,7 @@
            <ul class="level2">
                 <li><a href="/uzitecne">Dokumenty</a></li>
                 <li><a href="/ankety">Ankety</a></li>
+				<li><a href="/rocnik-2016">Ročník 2016</a></li>
 				<li><a href="/rocnik-2015">Ročník 2015</a></li>
                 <li><a href="/rocnik-2014">Ročník 2014</a></li>
 				<li><a href="/rocnik-2013">Ročník 2013</a></li>
