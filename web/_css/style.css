@@ -21,7 +21,7 @@ textarea {}
 
 #logo {width:996px;height:109px;display:block;left:0px;top:13px;position:absolute;overflow:hidden;z-index:1;}
 #logo h1, #logo h1 span {width:996px;height:109px;position:absolute;top:0px;left:0px;z-index:1;overflow:hidden;color:#fff;padding-left:0px;padding-top:0px;margin:0px;}
-#logo h1 span {width:996px;height:109px;background-image:url(../_images/logo.png);background-repeat:no-repeat;display:block;left:0px;cursor:pointer;margin:0px;overflow:hidden;}
+#logo h1 span {width:996px;height:109px;background-image:url(../_images/logo__force.png);background-repeat:no-repeat;display:block;left:0px;cursor:pointer;margin:0px;overflow:hidden;}
 #logo a {color:#fff;}
 
 .flash {height:191px;text-align:center;}

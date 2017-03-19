@@ -1,7 +1,10 @@
 <div class="homeObsah">
 <center>
-  <h3>Sezona 2014 byla spolufinancována z projektu Kola přes hranice!</h3>
-  <img src="/web/_images/publicita_logo.jpg" alt="Kola přes hranice!" title="Kola přes hranice!" />
+  <h1>FORCE - SPAC 2017</h1>
+  <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_bl2.gif" alt="" title="" /></a>
+  <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_bl2.gif" alt="" title="" /></a>
+  <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_bl2.gif" alt="" title="" /></a>
+  
 </center> 
   
 	<table>
