@@ -27,6 +27,7 @@
 		Router::addE('kronika/kron-2013', 'cs', 'kronika/kron-2013', '#locale#/s/kronika_files/kron-2013', true);
 		Router::addE('kronika/kron-2014', 'cs', 'kronika/kron-2014', '#locale#/s/kronika_files/kron-2014', true);
 		Router::addE('kronika/kron-2015', 'cs', 'kronika/kron-2015', '#locale#/s/kronika_files/kron-2015', true);
+		Router::addE('kronika/kron-2016', 'cs', 'kronika/kron-2016', '#locale#/s/kronika_files/kron-2016', true);
 	Router::addE('kontakty', 'cs', 'kontakty', '#locale#/s/kontakty', true);
 	Router::addE('uzitecne', 'cs', 'uzitecne', '#locale#/s/uzitecne', true);
     Router::addE('ankety', 'cs', 'ankety', '#locale#/s/ankety', true);
@@ -35,6 +36,7 @@
     Router::addE('rocnik-2013', 'cs', 'rocnik-2013', '#locale#/s/rocnik-2013', true);
 	Router::addE('rocnik-2014', 'cs', 'rocnik-2014', '#locale#/s/rocnik-2014', true);
 	Router::addE('rocnik-2015', 'cs', 'rocnik-2015', '#locale#/s/rocnik-2015', true);
+	Router::addE('rocnik-2016', 'cs', 'rocnik-2016', '#locale#/s/rocnik-2016', true);
 	Router::addE('partneri', 'cs', 'partneri', '#locale#/s/partneri', true);
 	Router::process();
 ?>
