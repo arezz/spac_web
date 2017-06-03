@@ -134,7 +134,7 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
             <span class="clearing"></span>
            </div>
            <div class="partnerItem">
-             <a href="http://www.roadmaraton.pl/2015/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_DSR_road_maraton.gif" alt="" title="" /></a>
+             <a href="http://www.fitnessobchod.com/" onclick="return !window.open(this.href)"><img src="/web/_images/logo-fitness.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
             <div class="partnerItem">
