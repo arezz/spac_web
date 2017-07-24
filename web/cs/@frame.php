@@ -149,6 +149,10 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <a href="http://www.lawi.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_08_Lawi.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
+		   <div class="partnerItem">
+             <a href="http://www.poski.com/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_00_poski.gif" alt="Poski.com s.r.o." title="Poski.com s.r.o." /></a>
+             <span class="clearing"></span>
+           </div>
            <div class="partnerItem">
              <a href="http://www.pohary-bauer.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_11_Bauer.gif" alt="" title="" /></a>
              <span class="clearing"></span>
@@ -210,11 +214,6 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
  echo '<!--';
 }
 ?>
-
-           <div class="partnerItem">
-             <a href="http://www.poski.com/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_00_poski.gif" alt="Poski.com s.r.o." title="Poski.com s.r.o." /></a>
-             <span class="clearing"></span>
-           </div>
           
            <p>
              <a href="/partneri">všichni partneři</a>
