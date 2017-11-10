@@ -133,10 +133,6 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
                       &lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&amp;start=1709" border="0" alt="TOPlist" width="88" height="60" /&gt;</noscript></a>
             <span class="clearing"></span>
            </div>
-           <div class="partnerItem">
-             <a href="http://www.fitnessobchod.com/" onclick="return !window.open(this.href)"><img src="/web/_images/logo-fitness.gif" alt="" title="" /></a>
-             <span class="clearing"></span>
-           </div>
             <div class="partnerItem">
              <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_gray.gif" alt="" title="" /></a>
              <span class="clearing"></span>
