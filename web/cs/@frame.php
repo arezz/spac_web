@@ -157,6 +157,10 @@ document.write ('&lt;img src="http://toplist.cz/count.asp?id=467931&amp;logo=mc&
              <a href="http://http://www.repronis.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_01_repronis.gif" alt="" title="" /></a>
              <span class="clearing"></span>
            </div>
+		   <div class="partnerItem">
+             <a href="http://www.3xtop.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/3xtop.gif" alt="" title="" /></a>
+             <span class="clearing"></span>
+           </div>
            <div class="partnerItem">
              <a href="http://www.idnes.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_dnes.gif" alt="" title="" /></a>
              <span class="clearing"></span>
