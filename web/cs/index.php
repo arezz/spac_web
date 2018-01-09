@@ -1,6 +1,6 @@
 <div class="homeObsah">
 <center>
-  <h1>FORCE - SPAC 2017</h1>
+  <h1>FORCE - SPAC 2018</h1>
   <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_bl2.gif" alt="" title="" /></a>
   <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_bl2.gif" alt="" title="" /></a>
   <a href="http://www.force.cz/" onclick="return !window.open(this.href)"><img src="/web/_images/logo_force_bl2.gif" alt="" title="" /></a>
