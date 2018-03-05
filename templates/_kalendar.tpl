@@ -63,6 +63,9 @@
 <br>
 Kalendář SPAC a silničních závodů na google! <a href="https://www.google.com/calendar/embed?src=oh3am1cgo77le5a5hd7qkate40%40group.calendar.google.com&ctz=Europe/Prague">Google kalendář</a><br>
 <br>
+<a href="http://www.3xtop.cz/cs/">3xtop.cz - společné motivační tréninky!</a>
+<a href="/web/_docs/2018/motivace.doc">Motivační tréninky</a>, <a href="/web/_docs/2018/letak3xtoppredni.jpg">Leták 1</a>, <a href="/web/_docs/2018/letak3xtopzadni.jpg">Leták 2</a> 
+<br />
 <a href="http://lasskaliga.cz/">Lašská cyklistická liga.</a><br />
 Jiné závody najdete na webu <a href="http://mssc.websnadno.cz/Uvod.html">MSSC</a><br />
 Také na stránkách <a href="http://cyklo.matera.cz/">Cyklo Matera</a><br />
