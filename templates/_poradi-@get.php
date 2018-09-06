@@ -41,7 +41,7 @@
 					<th class="celkem">Celkem</th>';
 					if ($kategorie['nej'] == 11) 
           {
-					   echo '<th class="nej">' . $kategorie['nej'] . ' nej + Trispol' . '</th>';
+					   echo '<th class="nej">' . $kategorie['nej'] . ' nej' . '</th>';
 					} 
 					else 
 					{
